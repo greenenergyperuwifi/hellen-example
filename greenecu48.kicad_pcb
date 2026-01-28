@@ -2806,8 +2806,8 @@
 		)
 		(pad "E16" thru_hole circle
 			(at 42.000001 -26 270)
-			(size 0.6 0.6)
-			(drill 0.3)
+			(size 1.2 1.2)
+			(drill 0.6)
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net 112 "unconnected-(M1-OUT_PWM3-PadE16)")
