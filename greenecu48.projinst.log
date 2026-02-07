@@ -1,0 +1,10 @@
+Plugin v0.0.1 running on KiCad 8.0.8 and Python 3.11.5 (main, Dec 24 2024, 05:27:06) [MSC v.1942 64 bit (AMD64)] on win32.
+Valid Board found for C:\RGIT\greenenergyperuwifi\hellen-example\greenecu48.kicad_sch
+2 sheet instances entries in C:\RGIT\greenenergyperuwifi\hellen-example\greenecu48.kicad_sch
+0 sheet instances entries in C:\RGIT\greenenergyperuwifi\hellen-example\INJ6.kicad_sch
+0 sheet instances entries in C:\RGIT\greenenergyperuwifi\hellen-example\IGN6.kicad_sch
+Root item: <wx._dataview.TreeListItem object at 0x0000029C77B20B80>
+No Valid Child board for 89193c9d-14b5-4c9d-be2d-a736bd1cd70a
+No Valid Child board for f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf
+No Valid Child board for 
+Instance is a dead branch: 

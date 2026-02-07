@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.9-8.0.9-0~ubuntu24.04.1"
+      "Version": "8.0.8"
     },
-    "CreationDate": "2026-01-28T14:13:45+00:00"
+    "CreationDate": "2026-02-06T20:56:35-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -26,68 +26,74 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "greenecu48-F_Cu.gtl",
+      "Path": "greenecu48-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-In1_Cu.g2",
+      "Path": "greenecu48-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-In2_Cu.g3",
+      "Path": "greenecu48-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-B_Cu.gbl",
+      "Path": "greenecu48-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-F_Paste.gtp",
+      "Path": "greenecu48-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-B_Paste.gbp",
+      "Path": "greenecu48-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-F_Silkscreen.gto",
+      "Path": "greenecu48-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-B_Silkscreen.gbo",
+      "Path": "greenecu48-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "greenecu48-F_Mask.gts",
+      "Path": "greenecu48-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "greenecu48-B_Mask.gbs",
+      "Path": "greenecu48-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "greenecu48-Edge_Cuts.gm1",
+      "Path": "greenecu48-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
