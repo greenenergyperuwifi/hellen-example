@@ -104,6 +104,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 81.09 133.68)
+		(grid_origin 81.09 133.68)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -7054,7 +7056,7 @@
 		(sheetfile "greenecu48.kicad_sch")
 		(attr through_hole)
 		(fp_text user "USB-"
-			(at 22.24 10.55 270)
+			(at 22.24 10.55 -90)
 			(layer "B.SilkS")
 			(uuid "01ee7daa-9c32-4afb-8851-52a8f64d3aa3")
 			(effects
@@ -7066,7 +7068,7 @@
 			)
 		)
 		(fp_text user "LSU_I"
-			(at 12.74 -1.25 270)
+			(at 12.74 -1.25 -90)
 			(layer "B.SilkS")
 			(uuid "1c919bfa-efc3-4170-a288-3beced6a17cd")
 			(effects
@@ -7078,7 +7080,7 @@
 			)
 		)
 		(fp_text user "IGN1"
-			(at 0.12 -4.22 270)
+			(at 0.12 -4.22 -90)
 			(layer "B.SilkS")
 			(uuid "23507c06-78ec-44f9-845b-87f50a44b61e")
 			(effects
@@ -7090,7 +7092,7 @@
 			)
 		)
 		(fp_text user "BUZ"
-			(at 22.3 12.34 270)
+			(at 22.3 12.34 -90)
 			(layer "B.SilkS")
 			(uuid "2dc54236-cfa4-4845-bc0f-65d8aa186072")
 			(effects
@@ -7102,7 +7104,7 @@
 			)
 		)
 		(fp_text user "TPS"
-			(at 17.28 9.8 270)
+			(at 17.28 9.8 -90)
 			(layer "B.SilkS")
 			(uuid "31895347-2f70-4e3b-bf15-68f0d04fadd8")
 			(effects
@@ -7114,7 +7116,7 @@
 			)
 		)
 		(fp_text user "12V"
-			(at 7.25 12.29 270)
+			(at 7.25 12.29 -90)
 			(layer "B.SilkS")
 			(uuid "321b71c9-89b5-4a9a-919a-a6ec83d1ed2b")
 			(effects
@@ -7126,7 +7128,7 @@
 			)
 		)
 		(fp_text user "EGT+"
-			(at 29.88 10.42 270)
+			(at 29.88 10.42 -90)
 			(layer "B.SilkS")
 			(uuid "32c905d7-6186-47ce-8171-7e01076d6965")
 			(effects
@@ -7150,7 +7152,7 @@
 			)
 		)
 		(fp_text user "MAP"
-			(at 12.26 10.02 270)
+			(at 12.26 10.02 -90)
 			(layer "B.SilkS")
 			(uuid "47b47481-2a65-42dd-afd9-f74f27fd1cf8")
 			(effects
@@ -7162,7 +7164,7 @@
 			)
 		)
 		(fp_text user "LSU_R"
-			(at 14.76 -3.67 270)
+			(at 14.76 -3.67 -90)
 			(layer "B.SilkS")
 			(uuid "4e8b9c6a-e3a8-494b-95e3-21bed0556fcf")
 			(effects
@@ -7174,7 +7176,7 @@
 			)
 		)
 		(fp_text user "INY1"
-			(at 7.55 -4.28 270)
+			(at 7.55 -4.28 -90)
 			(layer "B.SilkS")
 			(uuid "4ee19ce5-f3d8-4421-aaae-57c3c82e502c")
 			(effects
@@ -7198,7 +7200,7 @@
 			)
 		)
 		(fp_text user "5V"
-			(at 19.59 -2.35 270)
+			(at 19.59 -2.35 -90)
 			(layer "B.SilkS")
 			(uuid "5738a30b-5ba0-43a0-b0ba-3220400ea393")
 			(effects
@@ -7210,7 +7212,7 @@
 			)
 		)
 		(fp_text user "BOST"
-			(at 27.38 12.7 270)
+			(at 27.38 12.7 -90)
 			(layer "B.SilkS")
 			(uuid "5a6ad9dd-797e-488d-b1fc-b5840320cc6d")
 			(effects
@@ -7222,7 +7224,7 @@
 			)
 		)
 		(fp_text user "USB+"
-			(at 24.74 12.99 270)
+			(at 24.74 12.99 -90)
 			(layer "B.SilkS")
 			(uuid "5b305d98-37de-4c23-81a6-bc7199ada2d3")
 			(effects
@@ -7246,7 +7248,7 @@
 			)
 		)
 		(fp_text user "CANH"
-			(at 24.83 10.45 270)
+			(at 24.83 10.45 -90)
 			(layer "B.SilkS")
 			(uuid "6a6eff71-b54a-42cf-a07d-3ccdb44d2bff")
 			(effects
@@ -7270,7 +7272,7 @@
 			)
 		)
 		(fp_text user "CANL"
-			(at 22.03 -1.36 270)
+			(at 22.03 -1.36 -90)
 			(layer "B.SilkS")
 			(uuid "79021532-5dfd-49ce-bcc1-6a27b53f75cb")
 			(effects
@@ -7282,7 +7284,7 @@
 			)
 		)
 		(fp_text user "IGN5"
-			(at 0.02 10.36 270)
+			(at 0.02 10.36 -90)
 			(layer "B.SilkS")
 			(uuid "7cc4021c-d9a9-4b34-a94b-898fac1595a9")
 			(effects
@@ -7294,7 +7296,7 @@
 			)
 		)
 		(fp_text user "IAT"
-			(at 14.81 9.49 270)
+			(at 14.81 9.49 -90)
 			(layer "B.SilkS")
 			(uuid "7f45a478-07fb-4416-895c-3f2b1bd87396")
 			(effects
@@ -7306,7 +7308,7 @@
 			)
 		)
 		(fp_text user "INY6"
-			(at 9.86 10.2 270)
+			(at 9.86 10.2 -90)
 			(layer "B.SilkS")
 			(uuid "805a11ef-d7e4-44b3-86e7-fa14fc8e5198")
 			(effects
@@ -7318,7 +7320,7 @@
 			)
 		)
 		(fp_text user "INY2"
-			(at 9.92 -4.31 270)
+			(at 9.92 -4.31 -90)
 			(layer "B.SilkS")
 			(uuid "86922d48-1e1c-4f88-a811-85591fc02688")
 			(effects
@@ -7330,7 +7332,7 @@
 			)
 		)
 		(fp_text user "CLT"
-			(at 14.65 12.16 270)
+			(at 14.65 12.16 -90)
 			(layer "B.SilkS")
 			(uuid "8c614dc0-36c6-458f-b90b-1496f61a60eb")
 			(effects
@@ -7342,7 +7344,7 @@
 			)
 		)
 		(fp_text user "LSU_UI"
-			(at 17.19 -3.54 270)
+			(at 17.19 -3.54 -90)
 			(layer "B.SilkS")
 			(uuid "8d80eee1-138d-4e34-bb4e-ae821a837096")
 			(effects
@@ -7354,7 +7356,7 @@
 			)
 		)
 		(fp_text user "CK+"
-			(at 17.16 -1.67 270)
+			(at 17.16 -1.67 -90)
 			(layer "B.SilkS")
 			(uuid "90b3772b-1ba9-4db7-9db2-136b3f1e8c10")
 			(effects
@@ -7366,7 +7368,7 @@
 			)
 		)
 		(fp_text user "CAM"
-			(at 12.15 12.36 270)
+			(at 12.15 12.36 -90)
 			(layer "B.SilkS")
 			(uuid "a8629bc0-00a7-4a7d-9808-3b9d475689c0")
 			(effects
@@ -7378,7 +7380,7 @@
 			)
 		)
 		(fp_text user "CK-"
-			(at 19.5 -4.42 270)
+			(at 19.5 -4.42 -90)
 			(layer "B.SilkS")
 			(uuid "af584451-9c85-4b5f-b57b-a716e664cfb8")
 			(effects
@@ -7390,7 +7392,7 @@
 			)
 		)
 		(fp_text user "IGN4"
-			(at 2.91 -1.44 270)
+			(at 2.91 -1.44 -90)
 			(layer "B.SilkS")
 			(uuid "b58048ae-b662-4adf-8549-69b841937b77")
 			(effects
@@ -7402,7 +7404,7 @@
 			)
 		)
 		(fp_text user "IGN2"
-			(at 3.93 -4.13 270)
+			(at 3.93 -4.13 -90)
 			(layer "B.SilkS")
 			(uuid "b8ebdfd2-5597-4513-b462-d000bf3e2741")
 			(effects
@@ -7414,7 +7416,7 @@
 			)
 		)
 		(fp_text user "OILP"
-			(at 17.14 12.57 270)
+			(at 17.14 12.57 -90)
 			(layer "B.SilkS")
 			(uuid "bf0f20c9-ce7f-4c3e-84e2-c2462842fba5")
 			(effects
@@ -7426,7 +7428,7 @@
 			)
 		)
 		(fp_text user "FP"
-			(at 29.86 11.74 270)
+			(at 29.86 11.74 -90)
 			(layer "B.SilkS")
 			(uuid "bfa53005-4707-486c-a231-e9d44ba3023f")
 			(effects
@@ -7438,7 +7440,7 @@
 			)
 		)
 		(fp_text user "5V"
-			(at 19.74 9.41 270)
+			(at 19.74 9.41 -90)
 			(layer "B.SilkS")
 			(uuid "c07de682-0fb9-47e7-a397-ccfbf5c26af6")
 			(effects
@@ -7450,7 +7452,7 @@
 			)
 		)
 		(fp_text user "INY4"
-			(at 10.34 -1.66 270)
+			(at 10.34 -1.66 -90)
 			(layer "B.SilkS")
 			(uuid "c5faf6e5-f55b-425a-899a-c72fe97bbb15")
 			(effects
@@ -7462,7 +7464,7 @@
 			)
 		)
 		(fp_text user "GNDA"
-			(at 24.49 -4.07 270)
+			(at 24.49 -4.07 -90)
 			(layer "B.SilkS")
 			(uuid "cb11efe8-a820-4540-8102-e24dc431668c")
 			(effects
@@ -7474,7 +7476,7 @@
 			)
 		)
 		(fp_text user "EGT-"
-			(at 27.31 10.39 270)
+			(at 27.31 10.39 -90)
 			(layer "B.SilkS")
 			(uuid "ceb64444-3347-40e3-9d76-815e0c343cf7")
 			(effects
@@ -7486,7 +7488,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at -0.04 12.41 270)
+			(at -0.04 12.41 -90)
 			(layer "B.SilkS")
 			(uuid "d14f7f96-4f82-418d-a80a-387f744ddcce")
 			(effects
@@ -7498,7 +7500,7 @@
 			)
 		)
 		(fp_text user "INY3"
-			(at 7.97 -1.72 270)
+			(at 7.97 -1.72 -90)
 			(layer "B.SilkS")
 			(uuid "d4fde647-0c99-45ff-9574-4f022066e5ba")
 			(effects
@@ -7510,7 +7512,7 @@
 			)
 		)
 		(fp_text user "IGN6"
-			(at 3.82 10.27 270)
+			(at 3.82 10.27 -90)
 			(layer "B.SilkS")
 			(uuid "d52289b4-fccb-4ae0-8b50-c7c769ce5385")
 			(effects
@@ -7522,7 +7524,7 @@
 			)
 		)
 		(fp_text user "INY5"
-			(at 7.27 10.25 270)
+			(at 7.27 10.25 -90)
 			(layer "B.SilkS")
 			(uuid "ddcb17ba-3e8c-401b-a9f1-8480a53be9d8")
 			(effects
@@ -7534,7 +7536,7 @@
 			)
 		)
 		(fp_text user "KNK"
-			(at 22 -4.45 270)
+			(at 22 -4.45 -90)
 			(layer "B.SilkS")
 			(uuid "ee7c98fb-40dd-47c3-afd1-8822960f669d")
 			(effects
@@ -7546,7 +7548,7 @@
 			)
 		)
 		(fp_text user "LSU_U"
-			(at 12.29 -3.7 270)
+			(at 12.29 -3.7 -90)
 			(layer "B.SilkS")
 			(uuid "ef7475c3-efdf-44fb-ad97-af3480990b46")
 			(effects
@@ -7558,7 +7560,7 @@
 			)
 		)
 		(fp_text user "IGN3"
-			(at 0.12 -1.58 270)
+			(at 0.12 -1.58 -90)
 			(layer "B.SilkS")
 			(uuid "f212f3e5-95b4-4d7d-93d0-1009feb4f240")
 			(effects
@@ -7570,7 +7572,7 @@
 			)
 		)
 		(fp_text user "TACH"
-			(at 19.7 12.68 270)
+			(at 19.7 12.68 -90)
 			(layer "B.SilkS")
 			(uuid "f74dad7f-bb03-4f3b-9159-4a22cfdf9fc2")
 			(effects
@@ -7582,7 +7584,7 @@
 			)
 		)
 		(fp_text user "LSU_H"
-			(at 14.82 -0.95 270)
+			(at 14.82 -0.95 -90)
 			(layer "B.SilkS")
 			(uuid "fa211766-586b-4bd1-8239-70099f1d3c0e")
 			(effects
