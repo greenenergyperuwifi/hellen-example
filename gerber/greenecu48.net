@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/greenecu48.kicad_sch</source>
-    <date>2026-01-28T14:13:45+0000</date>
+    <date>2026-02-07T03:10:38+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,11 +22,356 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="2" name="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IGN6.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>INJ6.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>egt.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LOW_SIDE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
+    <comp ref="D2">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91baed48-7334-463c-bea6-9cad39f615d7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17fd4240-a001-4f80-ab75-1522f51caa1c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee251111-c5e4-42ed-a191-637595206e6d</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d58af6b0-ef59-4a00-9dae-c01ee22c870d</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148WS</value>
+      <footprint>hellen-one-common:SOD-323</footprint>
+      <fields>
+        <field name="LCSC">C2128</field>
+        <field name="Footprint">hellen-one-common:SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae62c98-b616-4318-a573-d30d66f7021a</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148WS</value>
+      <footprint>hellen-one-common:SOD-323</footprint>
+      <fields>
+        <field name="LCSC">C2128</field>
+        <field name="Footprint">hellen-one-common:SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f264e06f-69e9-4fef-9345-19042c735b76</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED-GREEN-0805</value>
+      <footprint>hellen-one-common:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2297</field>
+        <field name="Footprint">hellen-one-common:LED-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="LED" description="WHITE LED"/>
+      <property name="LCSC" value="C2297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ca81364-109e-4df3-9b79-c35c052ad770</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED-GREEN-0805</value>
+      <footprint>hellen-one-common:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2297</field>
+        <field name="Footprint">hellen-one-common:LED-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="LED" description="WHITE LED"/>
+      <property name="LCSC" value="C2297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f599df8b-a9fb-422e-9e2f-400f9abbbf83</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED-GREEN-0805</value>
+      <footprint>hellen-one-common:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2297</field>
+        <field name="Footprint">hellen-one-common:LED-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="LED" description="WHITE LED"/>
+      <property name="LCSC" value="C2297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16800176-81f6-4fcb-ac9f-d411f3a34a6b</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>LED-GREEN-0805</value>
+      <footprint>hellen-one-common:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2297</field>
+        <field name="Footprint">hellen-one-common:LED-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="LED" description="WHITE LED"/>
+      <property name="LCSC" value="C2297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33a92289-6803-4e4b-8f07-8adb61cf8d73</tstamps>
+    </comp>
+    <comp ref="F10">
+      <value>Fuse-Pad-Pad</value>
+      <footprint>hellen-one-common:PAD-1206-PAD</footprint>
+      <fields>
+        <field name="LCSC">C182446</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
+      <property name="LCSC" value="C182446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7041089c-35fb-492b-bfc0-32e3f7e5644a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB_B_Mini</value>
+      <footprint>hellen-one-common:USB-MINI-B-VERTICAL</footprint>
+      <fields>
+        <field name="LCSC">C13453</field>
+        <field name="Footprint">hellen-one-common:USB-MINI-B-VERTICAL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="USB_B_Mini" description="USB Mini Type B connector"/>
+      <property name="LCSC" value="C13453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <property name="ki_keywords" value="connector USB mini"/>
+      <property name="ki_fp_filters" value="USB*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a02a950-8a17-49e4-b9c7-e2f0e591d32e</tstamps>
+    </comp>
     <comp ref="M1">
+      <value>Module-power_12and5V-0.1</value>
+      <footprint>power-12-5v-0.1:power_12and5V</footprint>
+      <fields>
+        <field name="Footprint">power-12-5v-0.1:power_12and5V</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="power_12and5V-0.1" part="Module-power_12and5V-0.1" description="Hellen-One Power_12and5V Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7b6721e-e418-446e-b159-383b6b5d9528</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Module-vr-discrete-0.4</value>
+      <footprint>vr-discrete-0.4:vr-discrete</footprint>
+      <fields>
+        <field name="Footprint">vr-discrete-0.4:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="vr-discrete-0.4" part="Module-vr-discrete-0.4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4af7707-371c-4d82-bcd2-6e5e2cb4bdff</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Module-knock-0.2</value>
+      <footprint>knock-0.2:knock</footprint>
+      <fields>
+        <field name="Footprint">knock-0.2:knock</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-knock-0.2" part="Module-knock-0.2" description="Hellen-One Knock Pre-amplifier Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506f80a4-3bf4-4c92-ac55-5d421f150a71</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>Module-wbo-0.5</value>
+      <footprint>wbo-0.5:wbo</footprint>
+      <fields>
+        <field name="Footprint">wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-wbo-0.5" part="Module-wbo-0.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed07c713-fe55-459e-8198-edf5bb6e02c3</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>Module-can-0.1</value>
+      <footprint>can-01:can</footprint>
+      <description>Hellen-One CAN Module</description>
+      <fields>
+        <field name="Footprint">can-01:can</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One CAN Module</field>
+      </fields>
+      <libsource lib="can" part="Module-can-0.1" description="Hellen-One CAN Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>810f63f1-8c07-4b96-abf5-5d4f96136b9f</tstamps>
+    </comp>
+    <comp ref="M9">
       <value>Module-mega-mcu144-0.7</value>
-      <footprint>mega-144:mega-mcu144</footprint>
+      <footprint>mega-144-07:mega-mcu144</footprint>
       <description>Hellen One MEGA_MCU144 Module</description>
       <fields>
         <field name="PUBLISHER">qwerty-off</field>
@@ -43,7 +388,7 @@
         <field name="Designator"/>
         <field name="LCSC Part #"/>
         <field name="LCSC"/>
-        <field name="Footprint">mega-144:mega-mcu144</field>
+        <field name="Footprint">mega-144-07:mega-mcu144</field>
         <field name="Datasheet"/>
         <field name="Description">Hellen One MEGA_MCU144 Module</field>
       </fields>
@@ -66,7 +411,87 @@
       <property name="Sheetfile" value="greenecu48.kicad_sch"/>
       <property name="ki_fp_filters" value="MOD_Hellen_MEGA_MCU144_0.7"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>73c741b8-f6a7-40e9-ad66-0d04c32abb4c</tstamps>
+      <tstamps>778e3ba8-ad10-4fc6-bc2d-434119399ada</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>5.1k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2db84ee7-138d-4c42-9957-faeeb9a5de10</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>5.1k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56339986-96bd-40de-83d7-5d7d28e0acd1</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1.6k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C22847</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C22847"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d8aa443-4be2-458c-8865-bb3ac2280308</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>750</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23241</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23241"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8642fa7a-7cfa-42c4-9d84-043650b588e6</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenecu48.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1214f5e-900f-40c0-9f17-24b12a855b3d</tstamps>
     </comp>
     <comp ref="U1">
       <value>molex_48pin_MRE</value>
@@ -76,9 +501,7 @@
         <field name="Part #">500762-0481</field>
         <field name="VEND">DIGI</field>
         <field name="VEND#">WM4430-ND</field>
-        <field name="Comment"/>
         <field name="Designator"/>
-        <field name="LCSC Part #"/>
         <field name="LCSC"/>
         <field name="Footprint">conector-mre48:Molex_48_MRE</field>
         <field name="Datasheet"/>
@@ -89,17 +512,1225 @@
       <property name="Part #" value="500762-0481"/>
       <property name="VEND" value="DIGI"/>
       <property name="VEND#" value="WM4430-ND"/>
-      <property name="Comment" value=""/>
       <property name="Designator" value=""/>
-      <property name="LCSC Part #" value=""/>
       <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="greenecu48.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eafd1413-211a-4bdd-a119-3b3a05936604</tstamps>
     </comp>
+    <comp ref="Q911">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>49c1aca7-2302-40e7-876e-73501bb673d0</tstamps>
+    </comp>
+    <comp ref="Q912">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>eeefd9cb-25ed-410e-beaf-e31d6c81d1d3</tstamps>
+    </comp>
+    <comp ref="Q913">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>92552a87-0e47-4762-b784-579ab177d8e5</tstamps>
+    </comp>
+    <comp ref="Q914">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>d0262a49-3aa8-496e-9909-6b21628f32d8</tstamps>
+    </comp>
+    <comp ref="Q915">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>5196009b-8496-490f-bb2c-a646f83cf535</tstamps>
+    </comp>
+    <comp ref="Q916">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C462128</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C462128"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>07f9f661-5c41-4b86-b1ea-576d5915b373</tstamps>
+    </comp>
+    <comp ref="R911">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>a763985a-19ac-471f-a0b9-ff73973f416e</tstamps>
+    </comp>
+    <comp ref="R912">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>ee941afc-9525-4adb-bd76-9017c14092c6</tstamps>
+    </comp>
+    <comp ref="R913">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>b497a82c-e822-47ae-9674-0f5c4426e5e3</tstamps>
+    </comp>
+    <comp ref="R914">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>b7bd03a6-a7df-40a7-ad06-ae718ee7a85d</tstamps>
+    </comp>
+    <comp ref="R915">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>305b2f8d-77d6-4d1a-a058-b182b6e29ebd</tstamps>
+    </comp>
+    <comp ref="R916">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Ignition"/>
+      <property name="Sheetfile" value="IGN6.kicad_sch"/>
+      <sheetpath names="/Ignition/" tstamps="/f60d5a6b-018f-4b9b-b8ff-aea0b99d5bbf/"/>
+      <tstamps>1f28efcf-574d-4604-9ba5-7d69296c4a9e</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Module-ign8-0.2</value>
+      <footprint>ign8-0.2:ign8</footprint>
+      <description>Hellen-One 8-ch Ignition Module</description>
+      <fields>
+        <field name="Footprint">ign8-0.2:ign8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One 8-ch Ignition Module</field>
+      </fields>
+      <libsource lib="ign8" part="Module-ign8-0.2" description="Hellen-One 8-ch Ignition Module"/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>03041fa1-b010-4d9e-8768-ce9370e50cf0</tstamps>
+    </comp>
+    <comp ref="Q901">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>ee7a5d69-d8a6-4404-8351-dd0812e40b22</tstamps>
+    </comp>
+    <comp ref="Q902">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>2631c1c9-e802-4d93-80f5-5d2867a8dc2f</tstamps>
+    </comp>
+    <comp ref="Q903">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>cc6cf223-973a-472e-9f63-d6b3d4833deb</tstamps>
+    </comp>
+    <comp ref="Q904">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>61055101-a984-4ad0-9f5b-fabb9d240c63</tstamps>
+    </comp>
+    <comp ref="Q905">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>9620c381-fe3e-4213-9957-d5e8d81df285</tstamps>
+    </comp>
+    <comp ref="Q906">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>df9ec1a9-ebe0-4ead-8ae8-51a88d33f174</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>4d632ee8-28be-42cb-a24f-d755fe9341ec</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>300918b6-3092-4ea6-94d2-62fdcf06e5a8</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>479b2073-b5d6-4542-9c4f-88402d007235</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>0d9fe684-df5e-4242-af0c-f11ae1b7d006</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>ee185956-4efd-4e84-a259-eb4f43298ee5</tstamps>
+    </comp>
+    <comp ref="R406">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>c4815a2f-cb29-4823-8b93-ef10dc7b7dc8</tstamps>
+    </comp>
+    <comp ref="R901">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>cd2bc0b7-89f8-432c-bebf-32679bad6301</tstamps>
+    </comp>
+    <comp ref="R902">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>2201f606-4d52-4f07-a30f-97c992e90726</tstamps>
+    </comp>
+    <comp ref="R903">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>f369ed18-ebad-4a1b-b326-de34f3de5b51</tstamps>
+    </comp>
+    <comp ref="R904">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>b5bb4ef0-a696-4eda-8653-975f1a329e19</tstamps>
+    </comp>
+    <comp ref="R905">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>f991ab9f-b043-4534-9060-7b926b265ada</tstamps>
+    </comp>
+    <comp ref="R906">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/89193c9d-14b5-4c9d-be2d-a736bd1cd70a/"/>
+      <tstamps>818add67-4b02-4eb8-b5a9-70c97c61ddfd</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>hellen-one-common:C0603</footprint>
+      <fields>
+        <field name="LCSC">C57112</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
+      <property name="LCSC" value="C57112"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>cd0a894c-5418-48a4-aa03-73258a6a88d3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>hellen-one-common:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>654aa7b3-1a55-4597-a671-a04353a0a085</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>hellen-one-common:C0603</footprint>
+      <fields>
+        <field name="LCSC">C57112</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
+      <property name="LCSC" value="C57112"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>abaa19bc-56cd-49ea-a364-6ad70f21cc56</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>hellen-one-common:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>7c194b34-42fb-4fc6-9c8f-f18ecdf5d6b9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>hellen-one-common:C0603</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>20c66114-13a0-46b3-89e5-856aaf71446e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>NUP2105L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C284104</field>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
+      <property name="LCSC" value="C284104"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <property name="ki_keywords" value="can esd protection suppression transient"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>3e41667e-dc7e-456f-8d29-d43866173865</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>470R@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C97853</field>
+        <field name="comentario"/>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C97853"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>4f6eb529-4f22-43be-bd33-9de2b8b262b6</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>470R@100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C97853</field>
+        <field name="comentario"/>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C97853"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>6384568d-1c9c-4aa6-9b79-cb07350e6a5e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <description>Cold Junction K-type Thermocouple Interface, SPI, SOIC-8</description>
+      <fields>
+        <field name="LCSC">C52028</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+        <field name="Description">Cold Junction K-type Thermocouple Interface, SPI, SOIC-8</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"/>
+      <property name="LCSC" value="C52028"/>
+      <property name="Sheetname" value="EGT"/>
+      <property name="Sheetfile" value="egt.kicad_sch"/>
+      <property name="ki_keywords" value="Maxim"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/EGT/" tstamps="/717eeb4f-3819-4304-812a-21ed01b08e5b/"/>
+      <tstamps>112f721e-9a20-4b77-844f-5121feddd448</tstamps>
+    </comp>
+    <comp ref="M7">
+      <value>Module-ign8-0.2</value>
+      <footprint>ign8-0.2:ign8</footprint>
+      <description>Hellen-One 8-ch Ignition Module</description>
+      <fields>
+        <field name="Footprint">ign8-0.2:ign8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One 8-ch Ignition Module</field>
+      </fields>
+      <libsource lib="ign8" part="Module-ign8-0.2" description="Hellen-One 8-ch Ignition Module"/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>0e860d4a-746e-4a0a-9c8a-74c3a1e1b58a</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>04965ed7-57c7-4627-8979-1617d97be2d8</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>0259f7ac-32f0-49d5-bcff-69a15b478a72</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>2ce74225-e1d5-48c4-a92b-cd737fb7ace1</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>ISL9V3040D3ST</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <fields>
+        <field name="LCSC">C5350881</field>
+        <field name="MyComment"/>
+        <field name="comentario"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
+      <property name="LCSC" value="C5350881"/>
+      <property name="MyComment" value=""/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>2893ab81-b319-49f3-aedc-7a0646f305f7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>46db606f-3211-40d9-994d-2fa49952c243</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>996e509e-ff62-41f5-b13c-9481e76aa8e2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>572983ea-b214-413f-865f-aa45a1ba4a4c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>22</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="comentario"/>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23345"/>
+      <property name="comentario" value=""/>
+      <property name="Sheetname" value="LOW_SIDE"/>
+      <property name="Sheetfile" value="LOW_SIDE.kicad_sch"/>
+      <sheetpath names="/LOW_SIDE/" tstamps="/105b768b-b9c2-4e75-8b8c-4f284fcc4f76/"/>
+      <tstamps>e382d416-fc18-4cf2-b3c2-07f3b9807d9c</tstamps>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NIGBT_GCE">
+      <description>N-IGBT transistor, gate/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NIGBT_GCE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="NUP2105L">
+      <description>Dual Line CAN Bus Protector, 24Vrwm</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NUP2105L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</field>
+        <field name="Description">Dual Line CAN Bus Protector, 24Vrwm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="MAX31855KASA">
+      <description>Cold Junction K-type Thermocouple Interface, SPI, SOIC-8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855KASA</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+        <field name="Description">Cold Junction K-type Thermocouple Interface, SPI, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="passive"/>
+        <pin num="3" name="T+" type="passive"/>
+        <pin num="4" name="V_{CC}" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="SO" type="tri_state"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="can" part="Module-can-0.1">
+      <description>Hellen-One CAN Module</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-can-0.1</field>
+        <field name="Footprint">hellen-one-can-0.1:can</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One CAN Module</field>
+      </fields>
+      <pins>
+        <pin num="E1" name="GND" type="passive"/>
+        <pin num="S1" name="CANL" type="passive"/>
+        <pin num="S2" name="CANH" type="passive"/>
+        <pin num="V1" name="V5" type="passive"/>
+        <pin num="V2" name="CAN_VIO" type="passive"/>
+        <pin num="V5" name="CAN_TX" type="passive"/>
+        <pin num="V6" name="CAN_RX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="1N4148WS">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">hellen-one-common:SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC">C2128</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="Cap">
+      <description>Capacitor</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Cap</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">Capacitor</field>
+        <field name="LCSC"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="Fuse-Pad-Pad">
+      <description>12H1500D</description>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-Pad-Pad</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description">12H1500D</field>
+        <field name="LCSC">C182446</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="LED">
+      <description>WHITE LED</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-COLOR-0805</field>
+        <field name="Footprint">hellen-one-common:LED-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description">WHITE LED</field>
+        <field name="LCSC"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="Res">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Res</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+        <field name="LCSC"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="USB_B_Mini">
+      <description>USB Mini Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Mini</field>
+        <field name="Footprint">hellen-one-common:USB-MINI-B-VERTICAL</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">USB Mini Type B connector</field>
+        <field name="LCSC">C13453</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-knock-0.2" part="Module-knock-0.2">
+      <description>Hellen-One Knock Pre-amplifier Module</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-knock-0.2</field>
+        <field name="Footprint">hellen-one-knock-0.2:knock</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One Knock Pre-amplifier Module</field>
+      </fields>
+      <pins>
+        <pin num="E1" name="V5A" type="passive"/>
+        <pin num="E2" name="GND" type="passive"/>
+        <pin num="E3" name="OUT_KNOCK" type="passive"/>
+        <pin num="W1" name="IN_KNOCK" type="passive"/>
+        <pin num="W2" name="VREF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-wbo-0.5" part="Module-wbo-0.5">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-wbo-0.5</field>
+        <field name="Footprint">hellen-one-wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="E1" name="LSU_Un" type="passive"/>
+        <pin num="E2" name="LSU_Vm" type="passive"/>
+        <pin num="E3" name="LSU_Ip" type="passive"/>
+        <pin num="E4" name="LSU_Rtrim" type="passive"/>
+        <pin num="E5" name="LSU_H+" type="passive"/>
+        <pin num="E6" name="LSU_H-" type="passive"/>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="J1" name="SEL1" type="passive"/>
+        <pin num="J2" name="SEL2" type="passive"/>
+        <pin num="J_GND1" name="PULL_DOWN1" type="passive"/>
+        <pin num="J_GND2" name="PULL_DOWN2" type="passive"/>
+        <pin num="J_VCC1" name="PULL_UP1" type="passive"/>
+        <pin num="J_VCC2" name="PULL_UP2" type="passive"/>
+        <pin num="W1" name="V5_IN" type="passive"/>
+        <pin num="W2" name="CAN_VIO" type="passive"/>
+        <pin num="W3" name="CANL" type="passive"/>
+        <pin num="W4" name="CANH" type="passive"/>
+        <pin num="W5" name="nReset" type="passive"/>
+        <pin num="W6" name="SWDIO" type="passive"/>
+        <pin num="W7" name="SWCLK" type="passive"/>
+        <pin num="W8" name="V33_OUT" type="passive"/>
+        <pin num="W9" name="VDDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ign8" part="Module-ign8-0.2">
+      <description>Hellen-One 8-ch Ignition Module</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-ign8-0.2</field>
+        <field name="Footprint">hellen-one-ign8-0.2:ign8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One 8-ch Ignition Module</field>
+      </fields>
+      <pins>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="S1" name="OUT_IGN8" type="passive"/>
+        <pin num="S2" name="OUT_IGN7" type="passive"/>
+        <pin num="S3" name="OUT_IGN6" type="passive"/>
+        <pin num="S4" name="OUT_IGN5" type="passive"/>
+        <pin num="S5" name="OUT_IGN4" type="passive"/>
+        <pin num="S6" name="OUT_IGN3" type="passive"/>
+        <pin num="S7" name="OUT_IGN2" type="passive"/>
+        <pin num="S8" name="OUT_IGN1" type="passive"/>
+        <pin num="V1" name="IGN8" type="passive"/>
+        <pin num="V2" name="IGN7" type="passive"/>
+        <pin num="V3" name="IGN6" type="passive"/>
+        <pin num="V4" name="IGN5" type="passive"/>
+        <pin num="V5" name="IGN4" type="passive"/>
+        <pin num="V6" name="IGN3" type="passive"/>
+        <pin num="V7" name="IGN2" type="passive"/>
+        <pin num="V8" name="IGN1" type="passive"/>
+        <pin num="V9" name="VCC" type="passive"/>
+        <pin num="V10" name="V33" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="mega-mcu144" part="Module-mega-mcu144-0.7">
       <description>Hellen One MEGA_MCU144 Module</description>
       <footprints>
@@ -247,6 +1878,29 @@
         <pin num="W13" name="CANL" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="power_12and5V-0.1" part="Module-power_12and5V-0.1">
+      <description>Hellen-One Power_12and5V Module</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-power_12and5V-0.1</field>
+        <field name="Footprint">hellen-one-power_12and5V-0.1:power_12and5V</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One Power_12and5V Module</field>
+      </fields>
+      <pins>
+        <pin num="E1" name="VBAT" type="passive"/>
+        <pin num="E2" name="V12" type="passive"/>
+        <pin num="E3" name="VIGN" type="passive"/>
+        <pin num="E4" name="V5" type="passive"/>
+        <pin num="E5" name="EN_5VP" type="passive"/>
+        <pin num="E6" name="PG_5VP" type="passive"/>
+        <pin num="S1" name="GND" type="passive"/>
+        <pin num="V1" name="V12_PERM" type="passive"/>
+        <pin num="V2" name="IN_VIGN" type="passive"/>
+        <pin num="V3" name="V12_RAW" type="passive"/>
+        <pin num="V4" name="5VP" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="rusefi_Molex_MRE_Connector" part="molex_48pin_MRE">
       <fields>
         <field name="Reference">U1</field>
@@ -351,6 +2005,24 @@
         <pin num="LIN1" name="LIN1" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="vr-discrete-0.4" part="Module-vr-discrete-0.4">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-vr-discrete-0.4</field>
+        <field name="Footprint">hellen-one-vr-discrete-0.4:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="E1" name="Thresh_IN" type="passive"/>
+        <pin num="E2" name="OUT_A" type="passive"/>
+        <pin num="E3" name="OUT" type="passive"/>
+        <pin num="E4" name="V5_IN" type="passive"/>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="W1" name="VR-" type="passive"/>
+        <pin num="W2" name="VR+" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="mega-mcu144">
@@ -358,509 +2030,848 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/5V1">
-      <node ref="U1" pin="44" pinfunction="44" pintype="passive"/>
+    <net code="1" name="+3V3">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="M4" pin="V10" pinfunction="V33" pintype="passive"/>
+      <node ref="M6" pin="V2" pinfunction="CAN_VIO" pintype="passive"/>
+      <node ref="M7" pin="V10" pinfunction="V33" pintype="passive"/>
+      <node ref="M9" pin="N32" pinfunction="V33" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V_{CC}" pintype="power_in"/>
     </net>
-    <net code="2" name="/5V2">
-      <node ref="U1" pin="39" pinfunction="39" pintype="passive"/>
+    <net code="2" name="+5V">
+      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="M1" pin="E4" pinfunction="V5" pintype="passive"/>
+      <node ref="M2" pin="E4" pinfunction="V5_IN" pintype="passive"/>
+      <node ref="M5" pin="W1" pinfunction="V5_IN" pintype="passive"/>
+      <node ref="M9" pin="N31" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="3" name="/12V_KEY">
-      <node ref="U1" pin="5" pinfunction="5" pintype="passive"/>
+    <net code="3" name="+5VA">
+      <node ref="M3" pin="E1" pinfunction="V5A" pintype="passive"/>
+      <node ref="M4" pin="V9" pinfunction="VCC" pintype="passive"/>
+      <node ref="M6" pin="V1" pinfunction="V5" pintype="passive"/>
+      <node ref="M7" pin="V9" pinfunction="VCC" pintype="passive"/>
+      <node ref="M9" pin="N30" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
     </net>
-    <net code="4" name="/12V_MREL">
-      <node ref="U1" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="5" name="/AT1">
-      <node ref="U1" pin="18" pinfunction="18" pintype="passive"/>
-    </net>
-    <net code="6" name="/AT2">
-      <node ref="U1" pin="23" pinfunction="23" pintype="passive"/>
-    </net>
-    <net code="7" name="/AT3">
-      <node ref="U1" pin="24" pinfunction="24" pintype="passive"/>
-    </net>
-    <net code="8" name="/AT4">
-      <node ref="U1" pin="22" pinfunction="22" pintype="passive"/>
-    </net>
-    <net code="9" name="/AV1">
-      <node ref="U1" pin="27" pinfunction="27" pintype="passive"/>
-    </net>
-    <net code="10" name="/AV2">
-      <node ref="U1" pin="26" pinfunction="26" pintype="passive"/>
-    </net>
-    <net code="11" name="/AV3">
+    <net code="4" name="+5VP">
+      <node ref="M1" pin="V4" pinfunction="5VP" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="30" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="31" pintype="passive"/>
     </net>
-    <net code="12" name="/AV4">
-      <node ref="U1" pin="19" pinfunction="19" pintype="passive"/>
-    </net>
-    <net code="13" name="/AV5">
-      <node ref="U1" pin="20" pinfunction="20" pintype="passive"/>
-    </net>
-    <net code="14" name="/AV6">
-      <node ref="U1" pin="32" pinfunction="32" pintype="passive"/>
-    </net>
-    <net code="15" name="/AV7">
-      <node ref="U1" pin="30" pinfunction="30" pintype="passive"/>
-    </net>
-    <net code="16" name="/AV8">
-      <node ref="U1" pin="36" pinfunction="36" pintype="passive"/>
-    </net>
-    <net code="17" name="/AV9">
-      <node ref="U1" pin="40" pinfunction="40" pintype="passive"/>
-    </net>
-    <net code="18" name="/AV10">
-      <node ref="U1" pin="28" pinfunction="28" pintype="passive"/>
-    </net>
-    <net code="19" name="/CAM_SENSOR">
-      <node ref="U1" pin="25" pinfunction="25" pintype="passive"/>
-    </net>
-    <net code="20" name="/CANH">
-      <node ref="U1" pin="48" pinfunction="48" pintype="passive"/>
-    </net>
-    <net code="21" name="/CANL">
-      <node ref="U1" pin="47" pinfunction="47" pintype="passive"/>
-    </net>
-    <net code="22" name="/CRNK+">
-      <node ref="U1" pin="45" pinfunction="45" pintype="passive"/>
-    </net>
-    <net code="23" name="/CRNK-">
-      <node ref="U1" pin="46" pinfunction="46" pintype="passive"/>
-    </net>
-    <net code="24" name="/E-THROTTLE+">
-      <node ref="U1" pin="4" pinfunction="4" pintype="passive"/>
-    </net>
-    <net code="25" name="/E-THROTTLE-">
-      <node ref="U1" pin="8" pinfunction="8" pintype="passive"/>
-    </net>
-    <net code="26" name="/GND">
-      <node ref="U1" pin="17" pinfunction="17" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="21" pinfunction="21" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="6" pintype="passive"/>
-    </net>
-    <net code="27" name="/GP1">
-      <node ref="U1" pin="35" pinfunction="35" pintype="passive"/>
-    </net>
-    <net code="28" name="/GP2">
-      <node ref="U1" pin="34" pinfunction="34" pintype="passive"/>
-    </net>
-    <net code="29" name="/GP3">
-      <node ref="U1" pin="33" pinfunction="33" pintype="passive"/>
-    </net>
-    <net code="30" name="/GP4">
-      <node ref="U1" pin="43" pinfunction="43" pintype="passive"/>
-    </net>
-    <net code="31" name="/GP5">
-      <node ref="U1" pin="14" pinfunction="14" pintype="passive"/>
-    </net>
-    <net code="32" name="/GP6">
-      <node ref="U1" pin="13" pinfunction="13" pintype="passive"/>
-    </net>
-    <net code="33" name="/INJECTOR-1">
-      <node ref="U1" pin="37" pinfunction="37" pintype="passive"/>
-    </net>
-    <net code="34" name="/INJECTOR-2">
-      <node ref="U1" pin="38" pinfunction="38" pintype="passive"/>
-    </net>
-    <net code="35" name="/INJECTOR-3">
-      <node ref="U1" pin="41" pinfunction="41" pintype="passive"/>
-    </net>
-    <net code="36" name="/INJECTOR-4">
-      <node ref="U1" pin="42" pinfunction="42" pintype="passive"/>
-    </net>
-    <net code="37" name="/Ign1">
-      <node ref="U1" pin="9" pinfunction="9" pintype="passive"/>
-    </net>
-    <net code="38" name="/Ign2">
-      <node ref="U1" pin="10" pinfunction="10" pintype="passive"/>
-    </net>
-    <net code="39" name="/Ign3">
-      <node ref="U1" pin="11" pinfunction="11" pintype="passive"/>
-    </net>
-    <net code="40" name="/Ign4">
+    <net code="5" name="+12V">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M1" pin="E2" pinfunction="V12" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="12" pintype="passive"/>
-    </net>
-    <net code="41" name="/LS1">
-      <node ref="U1" pin="7" pinfunction="7" pintype="passive"/>
-    </net>
-    <net code="42" name="/LS2">
-      <node ref="U1" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="43" name="/MAIN_RELAY">
-      <node ref="U1" pin="29" pinfunction="29" pintype="passive"/>
-    </net>
-    <net code="44" name="/USB_D+">
       <node ref="U1" pin="16" pinfunction="16" pintype="passive"/>
     </net>
-    <net code="45" name="/USB_D-">
+    <net code="6" name="+12V_PROT">
+      <node ref="M1" pin="E5" pinfunction="EN_5VP" pintype="passive"/>
+    </net>
+    <net code="7" name="+12V_RAW">
+      <node ref="F10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="M1" pin="V1" pinfunction="V12_PERM" pintype="passive"/>
+      <node ref="M1" pin="V2" pinfunction="IN_VIGN" pintype="passive"/>
+      <node ref="M1" pin="V3" pinfunction="V12_RAW" pintype="passive"/>
+    </net>
+    <net code="8" name="/+ETB">
+      <node ref="M7" pin="V7" pinfunction="IGN2" pintype="passive"/>
+      <node ref="M9" pin="E17" pinfunction="OUT_PWM2" pintype="passive"/>
+    </net>
+    <net code="9" name="/-ETB">
+      <node ref="M9" pin="E16" pinfunction="OUT_PWM3" pintype="passive"/>
+    </net>
+    <net code="10" name="/CAN+">
+      <node ref="M5" pin="W4" pinfunction="CANH" pintype="passive"/>
+      <node ref="M9" pin="W12" pinfunction="CANH" pintype="passive"/>
+    </net>
+    <net code="11" name="/CAN-">
+      <node ref="M5" pin="W3" pinfunction="CANL" pintype="passive"/>
+      <node ref="M9" pin="W13" pinfunction="CANL" pintype="passive"/>
+    </net>
+    <net code="12" name="/CAN_H">
+      <node ref="M6" pin="S2" pinfunction="CANH" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="39" pintype="passive"/>
+    </net>
+    <net code="13" name="/CAN_L">
+      <node ref="M6" pin="S1" pinfunction="CANL" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="34" pintype="passive"/>
+    </net>
+    <net code="14" name="/CHECK_ENGINE">
+      <node ref="M9" pin="E22" pinfunction="OUT_IO8" pintype="passive"/>
+    </net>
+    <net code="15" name="/EGT+">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="47" pintype="passive"/>
+    </net>
+    <net code="16" name="/EGT-">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="43" pintype="passive"/>
+    </net>
+    <net code="17" name="/ETB_EN">
+      <node ref="M9" pin="E13" pinfunction="OUT_IO12" pintype="passive"/>
+    </net>
+    <net code="18" name="/FUEL_CONSUM">
+      <node ref="M9" pin="E25" pinfunction="OUT_PWM7" pintype="passive"/>
+    </net>
+    <net code="19" name="/FUEL_PUMP_RELAY">
+      <node ref="M7" pin="V5" pinfunction="IGN4" pintype="passive"/>
+      <node ref="M9" pin="E8" pinfunction="OUT_IO1" pintype="passive"/>
+    </net>
+    <net code="20" name="/GNDA">
+      <node ref="M9" pin="W1" pinfunction="GNDA" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="42" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="46" pintype="passive"/>
+    </net>
+    <net code="21" name="/IDLE">
+      <node ref="M9" pin="E21" pinfunction="OUT_IO4" pintype="passive"/>
+    </net>
+    <net code="22" name="/IGN1">
+      <node ref="M9" pin="W11" pinfunction="IGN1" pintype="passive"/>
+      <node ref="R911" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/IGN2">
+      <node ref="M9" pin="W10" pinfunction="IGN2" pintype="passive"/>
+      <node ref="R912" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/IGN3">
+      <node ref="M9" pin="W9" pinfunction="IGN3" pintype="passive"/>
+      <node ref="R913" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/IGN4">
+      <node ref="M9" pin="W8" pinfunction="IGN4" pintype="passive"/>
+      <node ref="R914" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/IGN5">
+      <node ref="M9" pin="W7" pinfunction="IGN5" pintype="passive"/>
+      <node ref="R915" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/IGN6">
+      <node ref="M9" pin="W6" pinfunction="IGN6" pintype="passive"/>
+      <node ref="R916" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/INJ1">
+      <node ref="M4" pin="V8" pinfunction="IGN1" pintype="passive"/>
+      <node ref="M9" pin="E19" pinfunction="OUT_INJ1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/INJ2">
+      <node ref="M4" pin="V7" pinfunction="IGN2" pintype="passive"/>
+      <node ref="M9" pin="E18" pinfunction="OUT_INJ2" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/INJ3">
+      <node ref="M4" pin="V6" pinfunction="IGN3" pintype="passive"/>
+      <node ref="M9" pin="E29" pinfunction="OUT_INJ3" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/INJ4">
+      <node ref="M4" pin="V5" pinfunction="IGN4" pintype="passive"/>
+      <node ref="M9" pin="E30" pinfunction="OUT_INJ4" pintype="passive"/>
+      <node ref="R404" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/INJ5">
+      <node ref="M4" pin="V4" pinfunction="IGN5" pintype="passive"/>
+      <node ref="M9" pin="E31" pinfunction="OUT_INJ5" pintype="passive"/>
+      <node ref="R405" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/INJ6">
+      <node ref="M4" pin="V3" pinfunction="IGN6" pintype="passive"/>
+      <node ref="M9" pin="E32" pinfunction="OUT_INJ6" pintype="passive"/>
+      <node ref="R406" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/IN_A1">
+      <node ref="M9" pin="S15" pinfunction="IN_O2S2" pintype="passive"/>
+    </net>
+    <net code="39" name="/IN_A2">
+      <node ref="M9" pin="S19" pinfunction="IN_MAP3" pintype="passive"/>
+    </net>
+    <net code="40" name="/IN_A3">
+      <node ref="M9" pin="S11" pinfunction="IN_AUX3" pintype="passive"/>
+    </net>
+    <net code="41" name="/IN_A4">
+      <node ref="M9" pin="S18" pinfunction="IN_RES3" pintype="passive"/>
+    </net>
+    <net code="42" name="/IN_AFR">
+      <node ref="M9" pin="S16" pinfunction="IN_O2S" pintype="passive"/>
+    </net>
+    <net code="43" name="/IN_CAM1">
+      <node ref="M9" pin="S24" pinfunction="IN_CAM" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="20" pintype="passive"/>
+    </net>
+    <net code="44" name="/IN_CAM2">
+      <node ref="M9" pin="S10" pinfunction="IN_AUX4" pintype="passive"/>
+    </net>
+    <net code="45" name="/IN_CLT">
+      <node ref="M9" pin="S28" pinfunction="IN_CLT" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="46" name="/IN_CRANK">
+      <node ref="M2" pin="E3" pinfunction="OUT" pintype="passive"/>
+      <node ref="M9" pin="S22" pinfunction="IN_CRANK" pintype="passive"/>
+    </net>
+    <net code="47" name="/IN_CRANK+">
+      <node ref="M2" pin="W2" pinfunction="VR+" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="26" pintype="passive"/>
+    </net>
+    <net code="48" name="/IN_CRANK-">
+      <node ref="M2" pin="W1" pinfunction="VR-" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="29" pintype="passive"/>
+    </net>
+    <net code="49" name="/IN_D1">
+      <node ref="M9" pin="S4" pinfunction="IN_D1" pintype="passive"/>
+    </net>
+    <net code="50" name="/IN_D2">
+      <node ref="M9" pin="S3" pinfunction="IN_D2" pintype="passive"/>
+    </net>
+    <net code="51" name="/IN_D3">
+      <node ref="M9" pin="S2" pinfunction="IN_D3" pintype="passive"/>
+    </net>
+    <net code="52" name="/IN_D4">
+      <node ref="M9" pin="S1" pinfunction="IN_D4" pintype="passive"/>
+    </net>
+    <net code="53" name="/IN_IAT">
+      <node ref="M9" pin="S26" pinfunction="IN_IAT" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="54" name="/IN_KNOCK1">
+      <node ref="M3" pin="E3" pinfunction="OUT_KNOCK" pintype="passive"/>
+      <node ref="M9" pin="S23" pinfunction="IN_KNOCK" pintype="passive"/>
+    </net>
+    <net code="55" name="/IN_KNOCK1_RAW">
+      <node ref="M3" pin="W1" pinfunction="IN_KNOCK" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="56" name="/IN_MAF">
+      <node ref="M9" pin="S21" pinfunction="IN_MAP1" pintype="passive"/>
+    </net>
+    <net code="57" name="/IN_MAP2">
+      <node ref="M9" pin="S20" pinfunction="IN_MAP2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="19" pintype="passive"/>
+    </net>
+    <net code="58" name="/IN_PPS1">
+      <node ref="M9" pin="S31" pinfunction="IN_PPS" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="28" pintype="passive"/>
+    </net>
+    <net code="59" name="/IN_PPS2">
+      <node ref="M9" pin="S12" pinfunction="IN_AUX2" pintype="passive"/>
+    </net>
+    <net code="60" name="/IN_RES1">
+      <node ref="M9" pin="S17" pinfunction="IN_RES1" pintype="passive"/>
+    </net>
+    <net code="61" name="/IN_RES2">
+      <node ref="M9" pin="S14" pinfunction="IN_RES2" pintype="passive"/>
+    </net>
+    <net code="62" name="/IN_TPS1">
+      <node ref="M9" pin="S30" pinfunction="IN_TPS" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="63" name="/IN_TPS2">
+      <node ref="M9" pin="S13" pinfunction="IN_AUX1" pintype="passive"/>
+    </net>
+    <net code="64" name="/IN_VSS">
+      <node ref="M9" pin="S25" pinfunction="IN_VSS" pintype="passive"/>
+    </net>
+    <net code="65" name="/LSU_CALIBR_RES">
+      <node ref="M5" pin="E4" pinfunction="LSU_Rtrim" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="66" name="/LSU_HEAT-">
+      <node ref="M5" pin="E5" pinfunction="LSU_H+" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="67" name="/LSU_PUMP_I">
+      <node ref="M5" pin="E3" pinfunction="LSU_Ip" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="68" name="/LSU_SENSOR_U">
+      <node ref="M5" pin="E1" pinfunction="LSU_Un" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="69" name="/LSU_SENSOR_U{slash}PUMP_I">
+      <node ref="M5" pin="E2" pinfunction="LSU_Vm" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="25" pintype="passive"/>
+    </net>
+    <net code="70" name="/MAIN_RELAY">
+      <node ref="M9" pin="E6" pinfunction="OUT_IO3" pintype="passive"/>
+    </net>
+    <net code="71" name="/OUT1">
+      <node ref="M9" pin="E7" pinfunction="OUT_IO5" pintype="passive"/>
+    </net>
+    <net code="72" name="/OUT2">
+      <node ref="M9" pin="E9" pinfunction="OUT_IO6" pintype="passive"/>
+    </net>
+    <net code="73" name="/OUT3">
+      <node ref="M9" pin="E28" pinfunction="OUT_PWM8" pintype="passive"/>
+    </net>
+    <net code="78" name="/OUT_BUZER">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="79" name="/OUT_FUEL_PUMP_RELAY">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="48" pintype="passive"/>
+    </net>
+    <net code="80" name="/OUT_IGN1">
+      <node ref="Q911" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="81" name="/OUT_IGN2">
+      <node ref="Q912" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="82" name="/OUT_IGN3">
+      <node ref="Q913" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="/OUT_IGN4">
+      <node ref="Q914" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="84" name="/OUT_IGN5">
+      <node ref="Q915" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="85" name="/OUT_IGN6">
+      <node ref="Q916" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="86" name="/OUT_INJ1">
+      <node ref="Q901" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="87" name="/OUT_INJ2">
+      <node ref="Q902" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="88" name="/OUT_INJ3">
+      <node ref="Q903" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="89" name="/OUT_INJ4">
+      <node ref="Q904" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="90" name="/OUT_INJ5">
+      <node ref="Q905" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="91" name="/OUT_INJ6">
+      <node ref="Q906" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="15" pintype="passive"/>
     </net>
-    <net code="46" name="unconnected-(M1-BOOT0-PadN5)">
-      <node ref="M1" pin="N5" pinfunction="BOOT0" pintype="passive"/>
+    <net code="92" name="/OUT_TACH">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="32" pintype="passive"/>
+    </net>
+    <net code="93" name="/OUT_WASTEGATE">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="44" pintype="passive"/>
+    </net>
+    <net code="94" name="/RX1">
+      <node ref="M9" pin="N24" pinfunction="UART8_RX" pintype="passive"/>
+    </net>
+    <net code="95" name="/RX2">
+      <node ref="M9" pin="N18" pinfunction="UART2_RX" pintype="passive"/>
+    </net>
+    <net code="96" name="/SPI3_CS">
+      <node ref="M9" pin="N10" pinfunction="SPI3_CS" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="97" name="/SPI3_MISO">
+      <node ref="M9" pin="N12" pinfunction="SPI3_MISO" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SO" pintype="tri_state"/>
+    </net>
+    <net code="98" name="/SPI3_MOSI">
+      <node ref="M9" pin="N13" pinfunction="SPI3_MOSI" pintype="passive"/>
+    </net>
+    <net code="99" name="/SPI3_SCK">
+      <node ref="M9" pin="N11" pinfunction="SPI3_SCK" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="100" name="/TACH">
+      <node ref="M7" pin="V6" pinfunction="IGN3" pintype="passive"/>
+      <node ref="M9" pin="E27" pinfunction="OUT_PWM1" pintype="passive"/>
+    </net>
+    <net code="101" name="/THRESHOLD_VR">
+      <node ref="M2" pin="E1" pinfunction="Thresh_IN" pintype="passive"/>
+      <node ref="M9" pin="E26" pinfunction="OUT_PWM6" pintype="passive"/>
+    </net>
+    <net code="102" name="/TX1">
+      <node ref="M9" pin="N25" pinfunction="UART8_TX" pintype="passive"/>
+    </net>
+    <net code="103" name="/TX2">
+      <node ref="M9" pin="N17" pinfunction="UART2_TX" pintype="passive"/>
+    </net>
+    <net code="104" name="/USBM">
+      <node ref="J4" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="M9" pin="N2" pinfunction="USBM" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="35" pintype="passive"/>
+    </net>
+    <net code="105" name="/USBP">
+      <node ref="J4" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="M9" pin="N3" pinfunction="USBP" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="40" pintype="passive"/>
+    </net>
+    <net code="106" name="/VBAT">
+      <node ref="M9" pin="N27" pinfunction="VBAT" pintype="passive"/>
+    </net>
+    <net code="107" name="/VBUS">
+      <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="M9" pin="N4" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="108" name="/VIGN">
+      <node ref="M1" pin="E3" pinfunction="VIGN" pintype="passive"/>
+      <node ref="M9" pin="N26" pinfunction="IN_VIGN" pintype="passive"/>
+    </net>
+    <net code="109" name="/VREF2">
+      <node ref="M3" pin="W2" pinfunction="VREF" pintype="passive"/>
+      <node ref="M9" pin="S5" pinfunction="VREF2" pintype="passive"/>
+    </net>
+    <net code="110" name="/VR_ANALOG">
+      <node ref="M2" pin="E2" pinfunction="OUT_A" pintype="passive"/>
+      <node ref="M9" pin="S9" pinfunction="IN_SENS1" pintype="passive"/>
+    </net>
+    <net code="111" name="/VVT1_1">
+      <node ref="M9" pin="E10" pinfunction="OUT_IO10" pintype="passive"/>
+    </net>
+    <net code="112" name="/VVT1_2">
+      <node ref="M9" pin="E23" pinfunction="OUT_IO7" pintype="passive"/>
+    </net>
+    <net code="113" name="/VVT2_B1">
+      <node ref="M9" pin="E14" pinfunction="OUT_PWM5" pintype="passive"/>
+    </net>
+    <net code="114" name="/VVT2_B2">
+      <node ref="M9" pin="E15" pinfunction="OUT_PWM4" pintype="passive"/>
+    </net>
+    <net code="115" name="/WASTEGATE">
+      <node ref="M7" pin="V8" pinfunction="IGN1" pintype="passive"/>
+      <node ref="M9" pin="E12" pinfunction="OUT_IO2" pintype="passive"/>
+    </net>
+    <net code="116" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="M1" pin="S1" pinfunction="GND" pintype="passive"/>
+      <node ref="M2" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M3" pin="E2" pinfunction="GND" pintype="passive"/>
+      <node ref="M4" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M5" pin="E6" pinfunction="LSU_H-" pintype="passive"/>
+      <node ref="M5" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M6" pin="E1" pinfunction="GND" pintype="passive"/>
+      <node ref="M7" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M9" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q901" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q902" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q903" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q904" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q905" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q906" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q911" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q912" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q913" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q914" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q915" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q916" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="117" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(D11-K)">
+      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="119" name="Net-(D13-K)">
+      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(D14-K)">
+      <node ref="D14" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="121" name="Net-(J4-GND)">
+      <node ref="J4" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J4" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(M4-OUT_IGN1)">
+      <node ref="M4" pin="S8" pinfunction="OUT_IGN1" pintype="passive"/>
+      <node ref="R901" pin="2" pintype="passive"/>
+    </net>
+    <net code="123" name="Net-(M4-OUT_IGN2)">
+      <node ref="M4" pin="S7" pinfunction="OUT_IGN2" pintype="passive"/>
+      <node ref="R902" pin="2" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(M4-OUT_IGN3)">
+      <node ref="M4" pin="S6" pinfunction="OUT_IGN3" pintype="passive"/>
+      <node ref="R903" pin="2" pintype="passive"/>
+    </net>
+    <net code="125" name="Net-(M4-OUT_IGN4)">
+      <node ref="M4" pin="S5" pinfunction="OUT_IGN4" pintype="passive"/>
+      <node ref="R904" pin="2" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(M4-OUT_IGN5)">
+      <node ref="M4" pin="S4" pinfunction="OUT_IGN5" pintype="passive"/>
+      <node ref="R905" pin="2" pintype="passive"/>
+    </net>
+    <net code="127" name="Net-(M4-OUT_IGN6)">
+      <node ref="M4" pin="S3" pinfunction="OUT_IGN6" pintype="passive"/>
+      <node ref="R906" pin="2" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(M5-PULL_UP2)">
+      <node ref="M5" pin="J2" pinfunction="SEL2" pintype="passive"/>
+      <node ref="M5" pin="J_VCC2" pinfunction="PULL_UP2" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(M6-CAN_RX)">
+      <node ref="M6" pin="V6" pinfunction="CAN_RX" pintype="passive"/>
+      <node ref="M9" pin="E4" pinfunction="SPI2_CS/CAN2_RX" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(M6-CAN_TX)">
+      <node ref="M6" pin="V5" pinfunction="CAN_TX" pintype="passive"/>
+      <node ref="M9" pin="E1" pinfunction="SPI2_SCK/CAN2_TX" pintype="passive"/>
+    </net>
+    <net code="131" name="Net-(M7-OUT_IGN1)">
+      <node ref="M7" pin="S8" pinfunction="OUT_IGN1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="132" name="Net-(M7-OUT_IGN2)">
+      <node ref="M7" pin="S7" pinfunction="OUT_IGN2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="133" name="Net-(M7-OUT_IGN3)">
+      <node ref="M7" pin="S6" pinfunction="OUT_IGN3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="134" name="Net-(M7-OUT_IGN4)">
+      <node ref="M7" pin="S5" pinfunction="OUT_IGN4" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="135" name="Net-(Q9-G)">
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="136" name="Net-(Q11-G)">
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="137" name="Net-(Q12-G)">
+      <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="138" name="Net-(Q14-G)">
+      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="139" name="Net-(Q901-G)">
+      <node ref="Q901" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R901" pin="1" pintype="passive"/>
+    </net>
+    <net code="140" name="Net-(Q902-G)">
+      <node ref="Q902" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R902" pin="1" pintype="passive"/>
+    </net>
+    <net code="141" name="Net-(Q903-G)">
+      <node ref="Q903" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R903" pin="1" pintype="passive"/>
+    </net>
+    <net code="142" name="Net-(Q904-G)">
+      <node ref="Q904" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R904" pin="1" pintype="passive"/>
+    </net>
+    <net code="143" name="Net-(Q905-G)">
+      <node ref="Q905" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R905" pin="1" pintype="passive"/>
+    </net>
+    <net code="144" name="Net-(Q906-G)">
+      <node ref="Q906" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R906" pin="1" pintype="passive"/>
+    </net>
+    <net code="145" name="Net-(Q911-G)">
+      <node ref="Q911" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R911" pin="1" pintype="passive"/>
+    </net>
+    <net code="146" name="Net-(Q912-G)">
+      <node ref="Q912" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R912" pin="1" pintype="passive"/>
+    </net>
+    <net code="147" name="Net-(Q913-G)">
+      <node ref="Q913" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R913" pin="1" pintype="passive"/>
+    </net>
+    <net code="148" name="Net-(Q914-G)">
+      <node ref="Q914" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R914" pin="1" pintype="passive"/>
+    </net>
+    <net code="149" name="Net-(Q915-G)">
+      <node ref="Q915" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R915" pin="1" pintype="passive"/>
+    </net>
+    <net code="150" name="Net-(Q916-G)">
+      <node ref="Q916" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R916" pin="1" pintype="passive"/>
+    </net>
+    <net code="151" name="Net-(U2-T+)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="152" name="Net-(U2-T-)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="153" name="unconnected-(J4-ID-Pad4)">
+      <node ref="J4" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(M1-PG_5VP-PadE6)">
+      <node ref="M1" pin="E6" pinfunction="PG_5VP" pintype="passive+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(M1-VBAT-PadE1)">
+      <node ref="M1" pin="E1" pinfunction="VBAT" pintype="passive"/>
+    </net>
+    <net code="156" name="unconnected-(M4-IGN7-PadV2)">
+      <node ref="M4" pin="V2" pinfunction="IGN7" pintype="passive"/>
+    </net>
+    <net code="157" name="unconnected-(M4-IGN8-PadV1)">
+      <node ref="M4" pin="V1" pinfunction="IGN8" pintype="passive"/>
+    </net>
+    <net code="158" name="unconnected-(M4-OUT_IGN7-PadS2)">
+      <node ref="M4" pin="S2" pinfunction="OUT_IGN7" pintype="passive"/>
+    </net>
+    <net code="159" name="unconnected-(M4-OUT_IGN8-PadS1)">
+      <node ref="M4" pin="S1" pinfunction="OUT_IGN8" pintype="passive"/>
+    </net>
+    <net code="160" name="unconnected-(M5-CAN_VIO-PadW2)">
+      <node ref="M5" pin="W2" pinfunction="CAN_VIO" pintype="passive+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(M1-BOOT1-PadW3a)">
-      <node ref="M1" pin="W3a" pinfunction="BOOT1" pintype="passive"/>
+    <net code="161" name="unconnected-(M5-PULL_DOWN1-PadJ_GND1)">
+      <node ref="M5" pin="J_GND1" pinfunction="PULL_DOWN1" pintype="passive+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(M1-CANH-PadW12)">
-      <node ref="M1" pin="W12" pinfunction="CANH" pintype="passive"/>
+    <net code="162" name="unconnected-(M5-PULL_DOWN2-PadJ_GND2)">
+      <node ref="M5" pin="J_GND2" pinfunction="PULL_DOWN2" pintype="passive+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(M1-CANL-PadW13)">
-      <node ref="M1" pin="W13" pinfunction="CANL" pintype="passive"/>
+    <net code="163" name="unconnected-(M5-PULL_UP1-PadJ_VCC1)">
+      <node ref="M5" pin="J_VCC1" pinfunction="PULL_UP1" pintype="passive+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(M1-GND-PadG)">
-      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+    <net code="164" name="unconnected-(M5-SEL1-PadJ1)">
+      <node ref="M5" pin="J1" pinfunction="SEL1" pintype="passive+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(M1-GNDA-PadE39)">
-      <node ref="M1" pin="E39" pinfunction="GNDA" pintype="passive"/>
+    <net code="165" name="unconnected-(M5-SWCLK-PadW7)">
+      <node ref="M5" pin="W7" pinfunction="SWCLK" pintype="passive"/>
     </net>
-    <net code="52" name="unconnected-(M1-GNDA-PadW1)">
-      <node ref="M1" pin="W1" pinfunction="GNDA" pintype="passive"/>
+    <net code="166" name="unconnected-(M5-SWDIO-PadW6)">
+      <node ref="M5" pin="W6" pinfunction="SWDIO" pintype="passive"/>
     </net>
-    <net code="53" name="unconnected-(M1-I2C_SCL-PadN14)">
-      <node ref="M1" pin="N14" pinfunction="I2C_SCL" pintype="passive"/>
+    <net code="167" name="unconnected-(M5-V33_OUT-PadW8)">
+      <node ref="M5" pin="W8" pinfunction="V33_OUT" pintype="passive"/>
     </net>
-    <net code="54" name="unconnected-(M1-I2C_SDA-PadN15)">
-      <node ref="M1" pin="N15" pinfunction="I2C_SDA" pintype="passive"/>
+    <net code="168" name="unconnected-(M5-VDDA-PadW9)">
+      <node ref="M5" pin="W9" pinfunction="VDDA" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(M1-IGN1-PadW11)">
-      <node ref="M1" pin="W11" pinfunction="IGN1" pintype="passive"/>
+    <net code="169" name="unconnected-(M5-nReset-PadW5)">
+      <node ref="M5" pin="W5" pinfunction="nReset" pintype="passive"/>
     </net>
-    <net code="56" name="unconnected-(M1-IGN2-PadW10)">
-      <node ref="M1" pin="W10" pinfunction="IGN2" pintype="passive"/>
+    <net code="170" name="unconnected-(M7-IGN5-PadV4)">
+      <node ref="M7" pin="V4" pinfunction="IGN5" pintype="passive"/>
     </net>
-    <net code="57" name="unconnected-(M1-IGN3-PadW9)">
-      <node ref="M1" pin="W9" pinfunction="IGN3" pintype="passive"/>
+    <net code="171" name="unconnected-(M7-IGN6-PadV3)">
+      <node ref="M7" pin="V3" pinfunction="IGN6" pintype="passive"/>
     </net>
-    <net code="58" name="unconnected-(M1-IGN4-PadW8)">
-      <node ref="M1" pin="W8" pinfunction="IGN4" pintype="passive"/>
+    <net code="172" name="unconnected-(M7-IGN7-PadV2)">
+      <node ref="M7" pin="V2" pinfunction="IGN7" pintype="passive"/>
     </net>
-    <net code="59" name="unconnected-(M1-IGN5-PadW7)">
-      <node ref="M1" pin="W7" pinfunction="IGN5" pintype="passive"/>
+    <net code="173" name="unconnected-(M7-IGN8-PadV1)">
+      <node ref="M7" pin="V1" pinfunction="IGN8" pintype="passive"/>
     </net>
-    <net code="60" name="unconnected-(M1-IGN6-PadW6)">
-      <node ref="M1" pin="W6" pinfunction="IGN6" pintype="passive"/>
+    <net code="174" name="unconnected-(M7-OUT_IGN5-PadS4)">
+      <node ref="M7" pin="S4" pinfunction="OUT_IGN5" pintype="passive"/>
     </net>
-    <net code="61" name="unconnected-(M1-IGN7-PadW5)">
-      <node ref="M1" pin="W5" pinfunction="IGN7" pintype="passive"/>
+    <net code="175" name="unconnected-(M7-OUT_IGN6-PadS3)">
+      <node ref="M7" pin="S3" pinfunction="OUT_IGN6" pintype="passive"/>
     </net>
-    <net code="62" name="unconnected-(M1-IGN8-PadW4)">
-      <node ref="M1" pin="W4" pinfunction="IGN8" pintype="passive"/>
+    <net code="176" name="unconnected-(M7-OUT_IGN7-PadS2)">
+      <node ref="M7" pin="S2" pinfunction="OUT_IGN7" pintype="passive"/>
     </net>
-    <net code="63" name="unconnected-(M1-IN_AT1-PadS27)">
-      <node ref="M1" pin="S27" pinfunction="IN_AT1" pintype="passive"/>
+    <net code="177" name="unconnected-(M7-OUT_IGN8-PadS1)">
+      <node ref="M7" pin="S1" pinfunction="OUT_IGN8" pintype="passive"/>
     </net>
-    <net code="64" name="unconnected-(M1-IN_AT2-PadS29)">
-      <node ref="M1" pin="S29" pinfunction="IN_AT2" pintype="passive"/>
+    <net code="178" name="unconnected-(M9-BOOT0-PadN5)">
+      <node ref="M9" pin="N5" pinfunction="BOOT0" pintype="passive+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(M1-IN_AUX1-PadS13)">
-      <node ref="M1" pin="S13" pinfunction="IN_AUX1" pintype="passive"/>
+    <net code="179" name="unconnected-(M9-BOOT1-PadW3a)">
+      <node ref="M9" pin="W3a" pinfunction="BOOT1" pintype="passive+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(M1-IN_AUX2-PadS12)">
-      <node ref="M1" pin="S12" pinfunction="IN_AUX2" pintype="passive"/>
+    <net code="180" name="unconnected-(M9-GNDA-PadE39)">
+      <node ref="M9" pin="E39" pinfunction="GNDA" pintype="passive+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(M1-IN_AUX3-PadS11)">
-      <node ref="M1" pin="S11" pinfunction="IN_AUX3" pintype="passive"/>
+    <net code="181" name="unconnected-(M9-I2C_SCL-PadN14)">
+      <node ref="M9" pin="N14" pinfunction="I2C_SCL" pintype="passive+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(M1-IN_AUX4-PadS10)">
-      <node ref="M1" pin="S10" pinfunction="IN_AUX4" pintype="passive"/>
+    <net code="182" name="unconnected-(M9-I2C_SDA-PadN15)">
+      <node ref="M9" pin="N15" pinfunction="I2C_SDA" pintype="passive+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(M1-IN_CAM-PadS24)">
-      <node ref="M1" pin="S24" pinfunction="IN_CAM" pintype="passive"/>
+    <net code="183" name="unconnected-(M9-IGN7-PadW5)">
+      <node ref="M9" pin="W5" pinfunction="IGN7" pintype="passive"/>
     </net>
-    <net code="70" name="unconnected-(M1-IN_CLT-PadS28)">
-      <node ref="M1" pin="S28" pinfunction="IN_CLT" pintype="passive"/>
+    <net code="184" name="unconnected-(M9-IGN8-PadW4)">
+      <node ref="M9" pin="W4" pinfunction="IGN8" pintype="passive"/>
     </net>
-    <net code="71" name="unconnected-(M1-IN_CRANK-PadS22)">
-      <node ref="M1" pin="S22" pinfunction="IN_CRANK" pintype="passive"/>
+    <net code="185" name="unconnected-(M9-IN_AT1-PadS27)">
+      <node ref="M9" pin="S27" pinfunction="IN_AT1" pintype="passive+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(M1-IN_D1-PadS4)">
-      <node ref="M1" pin="S4" pinfunction="IN_D1" pintype="passive"/>
+    <net code="186" name="unconnected-(M9-IN_AT2-PadS29)">
+      <node ref="M9" pin="S29" pinfunction="IN_AT2" pintype="passive+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(M1-IN_D2-PadS3)">
-      <node ref="M1" pin="S3" pinfunction="IN_D2" pintype="passive"/>
+    <net code="187" name="unconnected-(M9-IN_PPS2-PadS33)">
+      <node ref="M9" pin="S33" pinfunction="IN_PPS2" pintype="passive+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(M1-IN_D3-PadS2)">
-      <node ref="M1" pin="S2" pinfunction="IN_D3" pintype="passive"/>
+    <net code="188" name="unconnected-(M9-IN_SENS2-PadS8)">
+      <node ref="M9" pin="S8" pinfunction="IN_SENS2" pintype="passive+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(M1-IN_D4-PadS1)">
-      <node ref="M1" pin="S1" pinfunction="IN_D4" pintype="passive"/>
+    <net code="189" name="unconnected-(M9-IN_SENS3-PadS7)">
+      <node ref="M9" pin="S7" pinfunction="IN_SENS3" pintype="passive+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(M1-IN_IAT-PadS26)">
-      <node ref="M1" pin="S26" pinfunction="IN_IAT" pintype="passive"/>
+    <net code="190" name="unconnected-(M9-IN_SENS4-PadS6)">
+      <node ref="M9" pin="S6" pinfunction="IN_SENS4" pintype="passive+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(M1-IN_KNOCK-PadS23)">
-      <node ref="M1" pin="S23" pinfunction="IN_KNOCK" pintype="passive"/>
+    <net code="191" name="unconnected-(M9-IN_TPS2-PadS32)">
+      <node ref="M9" pin="S32" pinfunction="IN_TPS2" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(M1-IN_MAP1-PadS21)">
-      <node ref="M1" pin="S21" pinfunction="IN_MAP1" pintype="passive"/>
+    <net code="192" name="unconnected-(M9-IO1-PadN16)">
+      <node ref="M9" pin="N16" pinfunction="IO1" pintype="passive+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(M1-IN_MAP2-PadS20)">
-      <node ref="M1" pin="S20" pinfunction="IN_MAP2" pintype="passive"/>
+    <net code="193" name="unconnected-(M9-IO2-PadN19)">
+      <node ref="M9" pin="N19" pinfunction="IO2" pintype="passive+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(M1-IN_MAP3-PadS19)">
-      <node ref="M1" pin="S19" pinfunction="IN_MAP3" pintype="passive"/>
+    <net code="194" name="unconnected-(M9-IO3-PadN21)">
+      <node ref="M9" pin="N21" pinfunction="IO3" pintype="passive+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(M1-IN_O2S-PadS16)">
-      <node ref="M1" pin="S16" pinfunction="IN_O2S" pintype="passive"/>
+    <net code="195" name="unconnected-(M9-IO4-PadN20)">
+      <node ref="M9" pin="N20" pinfunction="IO4" pintype="passive+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(M1-IN_O2S2-PadS15)">
-      <node ref="M1" pin="S15" pinfunction="IN_O2S2" pintype="passive"/>
+    <net code="196" name="unconnected-(M9-IO5-PadN23)">
+      <node ref="M9" pin="N23" pinfunction="IO5" pintype="passive+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(M1-IN_PPS-PadS31)">
-      <node ref="M1" pin="S31" pinfunction="IN_PPS" pintype="passive"/>
+    <net code="197" name="unconnected-(M9-IO6-PadE35)">
+      <node ref="M9" pin="E35" pinfunction="IO6" pintype="passive+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(M1-IN_PPS2-PadS33)">
-      <node ref="M1" pin="S33" pinfunction="IN_PPS2" pintype="passive"/>
+    <net code="198" name="unconnected-(M9-IO7-PadE36)">
+      <node ref="M9" pin="E36" pinfunction="IO7" pintype="passive+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(M1-IN_RES1-PadS17)">
-      <node ref="M1" pin="S17" pinfunction="IN_RES1" pintype="passive"/>
+    <net code="199" name="unconnected-(M9-LED_BLUE-PadW11c)">
+      <node ref="M9" pin="W11c" pinfunction="LED_BLUE" pintype="passive"/>
     </net>
-    <net code="86" name="unconnected-(M1-IN_RES2-PadS14)">
-      <node ref="M1" pin="S14" pinfunction="IN_RES2" pintype="passive"/>
+    <net code="200" name="unconnected-(M9-LED_GREEN-PadW11b)">
+      <node ref="M9" pin="W11b" pinfunction="LED_GREEN" pintype="passive"/>
     </net>
-    <net code="87" name="unconnected-(M1-IN_RES3-PadS18)">
-      <node ref="M1" pin="S18" pinfunction="IN_RES3" pintype="passive"/>
+    <net code="201" name="unconnected-(M9-LED_RED-PadW11a)">
+      <node ref="M9" pin="W11a" pinfunction="LED_RED" pintype="passive"/>
     </net>
-    <net code="88" name="unconnected-(M1-IN_SENS1-PadS9)">
-      <node ref="M1" pin="S9" pinfunction="IN_SENS1" pintype="passive"/>
+    <net code="202" name="unconnected-(M9-LED_YELLOW-PadW11d)">
+      <node ref="M9" pin="W11d" pinfunction="LED_YELLOW" pintype="passive"/>
     </net>
-    <net code="89" name="unconnected-(M1-IN_SENS2-PadS8)">
-      <node ref="M1" pin="S8" pinfunction="IN_SENS2" pintype="passive"/>
+    <net code="203" name="unconnected-(M9-OUT_INJ7-PadE33)">
+      <node ref="M9" pin="E33" pinfunction="OUT_INJ7" pintype="passive"/>
     </net>
-    <net code="90" name="unconnected-(M1-IN_SENS3-PadS7)">
-      <node ref="M1" pin="S7" pinfunction="IN_SENS3" pintype="passive"/>
+    <net code="204" name="unconnected-(M9-OUT_INJ8-PadE34)">
+      <node ref="M9" pin="E34" pinfunction="OUT_INJ8" pintype="passive"/>
     </net>
-    <net code="91" name="unconnected-(M1-IN_SENS4-PadS6)">
-      <node ref="M1" pin="S6" pinfunction="IN_SENS4" pintype="passive"/>
+    <net code="205" name="unconnected-(M9-OUT_IO9-PadE11)">
+      <node ref="M9" pin="E11" pinfunction="OUT_IO9" pintype="passive+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(M1-IN_TPS-PadS30)">
-      <node ref="M1" pin="S30" pinfunction="IN_TPS" pintype="passive"/>
+    <net code="206" name="unconnected-(M9-OUT_IO11-PadE24)">
+      <node ref="M9" pin="E24" pinfunction="OUT_IO11" pintype="passive+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(M1-IN_TPS2-PadS32)">
-      <node ref="M1" pin="S32" pinfunction="IN_TPS2" pintype="passive"/>
+    <net code="207" name="unconnected-(M9-OUT_IO13-PadE20)">
+      <node ref="M9" pin="E20" pinfunction="OUT_IO13" pintype="passive+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(M1-IN_VIGN-PadN26)">
-      <node ref="M1" pin="N26" pinfunction="IN_VIGN" pintype="passive"/>
+    <net code="208" name="unconnected-(M9-OUT_PWR_EN-PadN29)">
+      <node ref="M9" pin="N29" pinfunction="OUT_PWR_EN" pintype="passive+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(M1-IN_VSS-PadS25)">
-      <node ref="M1" pin="S25" pinfunction="IN_VSS" pintype="passive"/>
+    <net code="209" name="unconnected-(M9-SPI2_MISO-PadE2)">
+      <node ref="M9" pin="E2" pinfunction="SPI2_MISO" pintype="passive+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(M1-IO1-PadN16)">
-      <node ref="M1" pin="N16" pinfunction="IO1" pintype="passive"/>
+    <net code="210" name="unconnected-(M9-SPI2_MOSI-PadE3)">
+      <node ref="M9" pin="E3" pinfunction="SPI2_MOSI" pintype="passive+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(M1-IO2-PadN19)">
-      <node ref="M1" pin="N19" pinfunction="IO2" pintype="passive"/>
+    <net code="211" name="unconnected-(M9-SWCLK-PadN8)">
+      <node ref="M9" pin="N8" pinfunction="SWCLK" pintype="passive+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(M1-IO3-PadN21)">
-      <node ref="M1" pin="N21" pinfunction="IO3" pintype="passive"/>
+    <net code="212" name="unconnected-(M9-SWDIO-PadN7)">
+      <node ref="M9" pin="N7" pinfunction="SWDIO" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(M1-IO4-PadN20)">
-      <node ref="M1" pin="N20" pinfunction="IO4" pintype="passive"/>
+    <net code="213" name="unconnected-(M9-SWO-PadN6)">
+      <node ref="M9" pin="N6" pinfunction="SWO" pintype="passive+no_connect"/>
     </net>
-    <net code="100" name="unconnected-(M1-IO5-PadN23)">
-      <node ref="M1" pin="N23" pinfunction="IO5" pintype="passive"/>
+    <net code="214" name="unconnected-(M9-USBID-PadN1)">
+      <node ref="M9" pin="N1" pinfunction="USBID" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(M1-IO6-PadE35)">
-      <node ref="M1" pin="E35" pinfunction="IO6" pintype="passive"/>
+    <net code="215" name="unconnected-(M9-V5A_SWITCHABLE-PadE38)">
+      <node ref="M9" pin="E38" pinfunction="V5A_SWITCHABLE" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(M1-IO7-PadE36)">
-      <node ref="M1" pin="E36" pinfunction="IO7" pintype="passive"/>
+    <net code="216" name="unconnected-(M9-V5A_SWITCHABLE-PadW2)">
+      <node ref="M9" pin="W2" pinfunction="V5A_SWITCHABLE" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(M1-LED_BLUE-PadW11c)">
-      <node ref="M1" pin="W11c" pinfunction="LED_BLUE" pintype="passive"/>
+    <net code="217" name="unconnected-(M9-V33-PadN22)">
+      <node ref="M9" pin="N22" pinfunction="V33" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(M1-LED_GREEN-PadW11b)">
-      <node ref="M1" pin="W11b" pinfunction="LED_GREEN" pintype="passive"/>
+    <net code="218" name="unconnected-(M9-V33_REF-PadW3)">
+      <node ref="M9" pin="W3" pinfunction="V33_REF" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(M1-LED_RED-PadW11a)">
-      <node ref="M1" pin="W11a" pinfunction="LED_RED" pintype="passive"/>
+    <net code="219" name="unconnected-(M9-V33_SWITCHABLE-PadN28)">
+      <node ref="M9" pin="N28" pinfunction="V33_SWITCHABLE" pintype="passive"/>
     </net>
-    <net code="106" name="unconnected-(M1-LED_YELLOW-PadW11d)">
-      <node ref="M1" pin="W11d" pinfunction="LED_YELLOW" pintype="passive"/>
+    <net code="220" name="unconnected-(M9-VREF1-PadS35)">
+      <node ref="M9" pin="S35" pinfunction="VREF1" pintype="passive+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(M1-OUT_INJ1-PadE19)">
-      <node ref="M1" pin="E19" pinfunction="OUT_INJ1" pintype="passive"/>
+    <net code="221" name="unconnected-(M9-nReset-PadN9)">
+      <node ref="M9" pin="N9" pinfunction="nReset" pintype="passive+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(M1-OUT_INJ2-PadE18)">
-      <node ref="M1" pin="E18" pinfunction="OUT_INJ2" pintype="passive"/>
-    </net>
-    <net code="109" name="unconnected-(M1-OUT_INJ3-PadE29)">
-      <node ref="M1" pin="E29" pinfunction="OUT_INJ3" pintype="passive"/>
-    </net>
-    <net code="110" name="unconnected-(M1-OUT_INJ4-PadE30)">
-      <node ref="M1" pin="E30" pinfunction="OUT_INJ4" pintype="passive"/>
-    </net>
-    <net code="111" name="unconnected-(M1-OUT_INJ5-PadE31)">
-      <node ref="M1" pin="E31" pinfunction="OUT_INJ5" pintype="passive"/>
-    </net>
-    <net code="112" name="unconnected-(M1-OUT_INJ6-PadE32)">
-      <node ref="M1" pin="E32" pinfunction="OUT_INJ6" pintype="passive"/>
-    </net>
-    <net code="113" name="unconnected-(M1-OUT_INJ7-PadE33)">
-      <node ref="M1" pin="E33" pinfunction="OUT_INJ7" pintype="passive"/>
-    </net>
-    <net code="114" name="unconnected-(M1-OUT_INJ8-PadE34)">
-      <node ref="M1" pin="E34" pinfunction="OUT_INJ8" pintype="passive"/>
-    </net>
-    <net code="115" name="unconnected-(M1-OUT_IO1-PadE8)">
-      <node ref="M1" pin="E8" pinfunction="OUT_IO1" pintype="passive"/>
-    </net>
-    <net code="116" name="unconnected-(M1-OUT_IO2-PadE12)">
-      <node ref="M1" pin="E12" pinfunction="OUT_IO2" pintype="passive"/>
-    </net>
-    <net code="117" name="unconnected-(M1-OUT_IO3-PadE6)">
-      <node ref="M1" pin="E6" pinfunction="OUT_IO3" pintype="passive"/>
-    </net>
-    <net code="118" name="unconnected-(M1-OUT_IO4-PadE21)">
-      <node ref="M1" pin="E21" pinfunction="OUT_IO4" pintype="passive"/>
-    </net>
-    <net code="119" name="unconnected-(M1-OUT_IO5-PadE7)">
-      <node ref="M1" pin="E7" pinfunction="OUT_IO5" pintype="passive"/>
-    </net>
-    <net code="120" name="unconnected-(M1-OUT_IO6-PadE9)">
-      <node ref="M1" pin="E9" pinfunction="OUT_IO6" pintype="passive"/>
-    </net>
-    <net code="121" name="unconnected-(M1-OUT_IO7-PadE23)">
-      <node ref="M1" pin="E23" pinfunction="OUT_IO7" pintype="passive"/>
-    </net>
-    <net code="122" name="unconnected-(M1-OUT_IO8-PadE22)">
-      <node ref="M1" pin="E22" pinfunction="OUT_IO8" pintype="passive"/>
-    </net>
-    <net code="123" name="unconnected-(M1-OUT_IO9-PadE11)">
-      <node ref="M1" pin="E11" pinfunction="OUT_IO9" pintype="passive"/>
-    </net>
-    <net code="124" name="unconnected-(M1-OUT_IO10-PadE10)">
-      <node ref="M1" pin="E10" pinfunction="OUT_IO10" pintype="passive"/>
-    </net>
-    <net code="125" name="unconnected-(M1-OUT_IO11-PadE24)">
-      <node ref="M1" pin="E24" pinfunction="OUT_IO11" pintype="passive"/>
-    </net>
-    <net code="126" name="unconnected-(M1-OUT_IO12-PadE13)">
-      <node ref="M1" pin="E13" pinfunction="OUT_IO12" pintype="passive"/>
-    </net>
-    <net code="127" name="unconnected-(M1-OUT_IO13-PadE20)">
-      <node ref="M1" pin="E20" pinfunction="OUT_IO13" pintype="passive"/>
-    </net>
-    <net code="128" name="unconnected-(M1-OUT_PWM1-PadE27)">
-      <node ref="M1" pin="E27" pinfunction="OUT_PWM1" pintype="passive"/>
-    </net>
-    <net code="129" name="unconnected-(M1-OUT_PWM2-PadE17)">
-      <node ref="M1" pin="E17" pinfunction="OUT_PWM2" pintype="passive"/>
-    </net>
-    <net code="130" name="unconnected-(M1-OUT_PWM3-PadE16)">
-      <node ref="M1" pin="E16" pinfunction="OUT_PWM3" pintype="passive"/>
-    </net>
-    <net code="131" name="unconnected-(M1-OUT_PWM4-PadE15)">
-      <node ref="M1" pin="E15" pinfunction="OUT_PWM4" pintype="passive"/>
-    </net>
-    <net code="132" name="unconnected-(M1-OUT_PWM5-PadE14)">
-      <node ref="M1" pin="E14" pinfunction="OUT_PWM5" pintype="passive"/>
-    </net>
-    <net code="133" name="unconnected-(M1-OUT_PWM6-PadE26)">
-      <node ref="M1" pin="E26" pinfunction="OUT_PWM6" pintype="passive"/>
-    </net>
-    <net code="134" name="unconnected-(M1-OUT_PWM7-PadE25)">
-      <node ref="M1" pin="E25" pinfunction="OUT_PWM7" pintype="passive"/>
-    </net>
-    <net code="135" name="unconnected-(M1-OUT_PWM8-PadE28)">
-      <node ref="M1" pin="E28" pinfunction="OUT_PWM8" pintype="passive"/>
-    </net>
-    <net code="136" name="unconnected-(M1-OUT_PWR_EN-PadN29)">
-      <node ref="M1" pin="N29" pinfunction="OUT_PWR_EN" pintype="passive"/>
-    </net>
-    <net code="137" name="unconnected-(M1-SPI2_CS{slash}CAN2_RX-PadE4)">
-      <node ref="M1" pin="E4" pinfunction="SPI2_CS/CAN2_RX" pintype="passive"/>
-    </net>
-    <net code="138" name="unconnected-(M1-SPI2_MISO-PadE2)">
-      <node ref="M1" pin="E2" pinfunction="SPI2_MISO" pintype="passive"/>
-    </net>
-    <net code="139" name="unconnected-(M1-SPI2_MOSI-PadE3)">
-      <node ref="M1" pin="E3" pinfunction="SPI2_MOSI" pintype="passive"/>
-    </net>
-    <net code="140" name="unconnected-(M1-SPI2_SCK{slash}CAN2_TX-PadE1)">
-      <node ref="M1" pin="E1" pinfunction="SPI2_SCK/CAN2_TX" pintype="passive"/>
-    </net>
-    <net code="141" name="unconnected-(M1-SPI3_CS-PadN10)">
-      <node ref="M1" pin="N10" pinfunction="SPI3_CS" pintype="passive"/>
-    </net>
-    <net code="142" name="unconnected-(M1-SPI3_MISO-PadN12)">
-      <node ref="M1" pin="N12" pinfunction="SPI3_MISO" pintype="passive"/>
-    </net>
-    <net code="143" name="unconnected-(M1-SPI3_MOSI-PadN13)">
-      <node ref="M1" pin="N13" pinfunction="SPI3_MOSI" pintype="passive"/>
-    </net>
-    <net code="144" name="unconnected-(M1-SPI3_SCK-PadN11)">
-      <node ref="M1" pin="N11" pinfunction="SPI3_SCK" pintype="passive"/>
-    </net>
-    <net code="145" name="unconnected-(M1-SWCLK-PadN8)">
-      <node ref="M1" pin="N8" pinfunction="SWCLK" pintype="passive"/>
-    </net>
-    <net code="146" name="unconnected-(M1-SWDIO-PadN7)">
-      <node ref="M1" pin="N7" pinfunction="SWDIO" pintype="passive"/>
-    </net>
-    <net code="147" name="unconnected-(M1-SWO-PadN6)">
-      <node ref="M1" pin="N6" pinfunction="SWO" pintype="passive"/>
-    </net>
-    <net code="148" name="unconnected-(M1-UART2_RX-PadN18)">
-      <node ref="M1" pin="N18" pinfunction="UART2_RX" pintype="passive"/>
-    </net>
-    <net code="149" name="unconnected-(M1-UART2_TX-PadN17)">
-      <node ref="M1" pin="N17" pinfunction="UART2_TX" pintype="passive"/>
-    </net>
-    <net code="150" name="unconnected-(M1-UART8_RX-PadN24)">
-      <node ref="M1" pin="N24" pinfunction="UART8_RX" pintype="passive"/>
-    </net>
-    <net code="151" name="unconnected-(M1-UART8_TX-PadN25)">
-      <node ref="M1" pin="N25" pinfunction="UART8_TX" pintype="passive"/>
-    </net>
-    <net code="152" name="unconnected-(M1-USBID-PadN1)">
-      <node ref="M1" pin="N1" pinfunction="USBID" pintype="passive"/>
-    </net>
-    <net code="153" name="unconnected-(M1-USBM-PadN2)">
-      <node ref="M1" pin="N2" pinfunction="USBM" pintype="passive"/>
-    </net>
-    <net code="154" name="unconnected-(M1-USBP-PadN3)">
-      <node ref="M1" pin="N3" pinfunction="USBP" pintype="passive"/>
-    </net>
-    <net code="155" name="unconnected-(M1-V5A_SWITCHABLE-PadE38)">
-      <node ref="M1" pin="E38" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
-    </net>
-    <net code="156" name="unconnected-(M1-V5A_SWITCHABLE-PadN30)">
-      <node ref="M1" pin="N30" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
-    </net>
-    <net code="157" name="unconnected-(M1-V5A_SWITCHABLE-PadW2)">
-      <node ref="M1" pin="W2" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
-    </net>
-    <net code="158" name="unconnected-(M1-V33-PadN22)">
-      <node ref="M1" pin="N22" pinfunction="V33" pintype="passive"/>
-    </net>
-    <net code="159" name="unconnected-(M1-V33-PadN32)">
-      <node ref="M1" pin="N32" pinfunction="V33" pintype="passive"/>
-    </net>
-    <net code="160" name="unconnected-(M1-V33_REF-PadW3)">
-      <node ref="M1" pin="W3" pinfunction="V33_REF" pintype="passive"/>
-    </net>
-    <net code="161" name="unconnected-(M1-V33_SWITCHABLE-PadN28)">
-      <node ref="M1" pin="N28" pinfunction="V33_SWITCHABLE" pintype="passive"/>
-    </net>
-    <net code="162" name="unconnected-(M1-VBAT-PadN27)">
-      <node ref="M1" pin="N27" pinfunction="VBAT" pintype="passive"/>
-    </net>
-    <net code="163" name="unconnected-(M1-VBUS-PadN4)">
-      <node ref="M1" pin="N4" pinfunction="VBUS" pintype="passive"/>
-    </net>
-    <net code="164" name="unconnected-(M1-VCC-PadN31)">
-      <node ref="M1" pin="N31" pinfunction="VCC" pintype="passive"/>
-    </net>
-    <net code="165" name="unconnected-(M1-VREF1-PadS35)">
-      <node ref="M1" pin="S35" pinfunction="VREF1" pintype="passive"/>
-    </net>
-    <net code="166" name="unconnected-(M1-VREF2-PadS5)">
-      <node ref="M1" pin="S5" pinfunction="VREF2" pintype="passive"/>
-    </net>
-    <net code="167" name="unconnected-(M1-nReset-PadN9)">
-      <node ref="M1" pin="N9" pinfunction="nReset" pintype="passive"/>
+    <net code="222" name="unconnected-(U2-NC-Pad8)">
+      <node ref="U2" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>
