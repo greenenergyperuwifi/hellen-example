@@ -11,4 +11,5 @@
   (lib (name "vr-discrete-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.4")(options "")(descr ""))
   (lib (name "wbo-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5")(options "")(descr ""))
   (lib (name "can-01")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/can/0.1")(options "")(descr ""))
+  (lib (name "vr-max9924-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-max9924/0.1")(options "")(descr ""))
 )

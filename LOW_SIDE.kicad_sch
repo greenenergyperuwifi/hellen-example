@@ -1182,6 +1182,7 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 118.745 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1193,6 +1194,7 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 261.62 50.165 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1204,6 +1206,7 @@
 	(hierarchical_label "33v"
 		(shape input)
 		(at 222.25 57.785 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1215,6 +1218,7 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 261.62 45.085 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1226,6 +1230,7 @@
 	(hierarchical_label "IN4"
 		(shape input)
 		(at 261.62 89.535 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1237,6 +1242,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 156.21 55.245 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1248,6 +1254,7 @@
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 261.62 84.455 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1259,6 +1266,7 @@
 	(hierarchical_label "OUT4"
 		(shape output)
 		(at 120.015 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1270,6 +1278,7 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 95.885 61.595 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1281,6 +1290,7 @@
 	(hierarchical_label "OUT3"
 		(shape output)
 		(at 115.57 76.835 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1292,6 +1302,7 @@
 	(hierarchical_label "5v"
 		(shape input)
 		(at 222.25 55.245 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

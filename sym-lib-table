@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "mre-48-arias")(type "KiCad")(uri "${KIPRJMOD}/symbol-arias/mre-48-arias.kicad_sym")(options "")(descr ""))
   (lib (name "mega-mcu144")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu144/0.7/mega-mcu144.kicad_sym")(options "")(descr ""))
+  (lib (name "vr-max9924")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-max9924/0.1/vr-max9924.kicad_sym")(options "")(descr ""))
 )

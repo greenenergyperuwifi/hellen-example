@@ -8629,6 +8629,202 @@
 				)
 			)
 		)
+		(symbol "vr-max9924:Module-vr-max9924-0.1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Module-vr-max9924-0.1"
+				(at 16.51 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "hellen-one-vr-max9924-0.1:vr-max9924"
+				(at 25.4 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Module-vr-max9924-0.1_1_0"
+				(rectangle
+					(start 0 0)
+					(end 33.02 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Install R775 for use \nwith very hot VR signals, \nto dampen the signal"
+					(at 5.08 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 7.62)
+					(name "V5_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 7.62)
+					(name "VR-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 7.62)
+					(name "VR+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 715.01 284.48)
@@ -8677,6 +8873,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "984ec9f8-6c54-4c4a-bd15-b823adfe0e5a")
+	)
+	(junction
+		(at 448.31 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd91995-4e3a-4147-ae61-519d23dc5055")
 	)
 	(junction
 		(at 399.415 297.815)
@@ -9662,6 +9864,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 185.42) (xy 437.515 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735a26fe-c7dd-4e16-8fe8-a88e0dcae29e")
+	)
+	(wire
+		(pts
 			(xy 617.22 146.05) (xy 638.81 146.05)
 		)
 		(stroke
@@ -9892,6 +10104,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 207.01) (xy 448.31 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f7bf54-563e-4a89-a8ed-2f93f1a5ccee")
+	)
+	(wire
+		(pts
 			(xy 376.555 175.26) (xy 376.555 177.8)
 		)
 		(stroke
@@ -10042,6 +10264,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 190.5) (xy 389.255 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6229883-f8f5-4b74-8305-662f7f5811e3")
+	)
+	(wire
+		(pts
 			(xy 546.1 156.21) (xy 554.99 156.21)
 		)
 		(stroke
@@ -10049,6 +10281,16 @@
 			(type default)
 		)
 		(uuid "b63e50c7-10a0-4223-9dd1-93b720ade62b")
+	)
+	(wire
+		(pts
+			(xy 388.62 207.01) (xy 448.31 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba659b43-8c26-4c44-9d26-2eb0065e2b57")
 	)
 	(wire
 		(pts
@@ -10402,6 +10644,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 185.42) (xy 448.31 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d437f5-29f8-48ef-8330-6fa8bcff0a98")
+	)
+	(wire
+		(pts
 			(xy 546.1 153.67) (xy 554.99 153.67)
 		)
 		(stroke
@@ -10469,6 +10721,16 @@
 			(type default)
 		)
 		(uuid "eaa2bda0-d640-428f-8edf-146627db53db")
+	)
+	(wire
+		(pts
+			(xy 388.62 190.5) (xy 388.62 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb948eed-7ca2-4e34-8666-65b1614fd821")
 	)
 	(wire
 		(pts
@@ -10646,6 +10908,7 @@
 	)
 	(label "+ETB"
 		(at 675.64 285.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10656,6 +10919,7 @@
 	)
 	(label "IGN2"
 		(at 554.99 130.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10666,6 +10930,7 @@
 	)
 	(label "IN_D4"
 		(at 554.99 341.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10676,6 +10941,7 @@
 	)
 	(label "V12_PERM"
 		(at 389.255 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10686,6 +10952,7 @@
 	)
 	(label "OUT_IGN6"
 		(at 527.05 140.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10696,6 +10963,7 @@
 	)
 	(label "IN_MAP2"
 		(at 554.99 298.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10706,6 +10974,7 @@
 	)
 	(label "CAN_H"
 		(at 594.36 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10716,6 +10985,7 @@
 	)
 	(label "EGT+"
 		(at 656.59 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10726,6 +10996,7 @@
 	)
 	(label "VREF2"
 		(at 554.99 349.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10736,6 +11007,7 @@
 	)
 	(label "IN_KNOCK1"
 		(at 554.99 328.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10746,6 +11018,7 @@
 	)
 	(label "EGT+"
 		(at 617.22 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10756,6 +11029,7 @@
 	)
 	(label "INJ4"
 		(at 554.99 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10766,6 +11040,7 @@
 	)
 	(label "IN_D3"
 		(at 554.99 339.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10776,6 +11051,7 @@
 	)
 	(label "IN_CRANK-"
 		(at 565.15 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10786,6 +11062,7 @@
 	)
 	(label "IDLE"
 		(at 554.99 212.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10796,6 +11073,7 @@
 	)
 	(label "IN_A4"
 		(at 554.99 290.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10806,6 +11084,7 @@
 	)
 	(label "IN_IAT"
 		(at 554.99 265.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10816,6 +11095,7 @@
 	)
 	(label "+5VP"
 		(at 572.77 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10826,6 +11106,7 @@
 	)
 	(label "GNDA"
 		(at 610.87 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10836,6 +11117,7 @@
 	)
 	(label "OUT_IGN5"
 		(at 494.03 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10846,6 +11128,7 @@
 	)
 	(label "IN_CRANK"
 		(at 694.69 241.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10856,6 +11139,7 @@
 	)
 	(label "IN_AFR"
 		(at 554.99 278.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10866,6 +11150,7 @@
 	)
 	(label "IN_CAM2"
 		(at 554.99 313.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10876,6 +11161,7 @@
 	)
 	(label "TX2"
 		(at 617.22 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10886,6 +11172,7 @@
 	)
 	(label "CAN+"
 		(at 617.22 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10896,6 +11183,7 @@
 	)
 	(label "INJ2"
 		(at 554.99 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10906,6 +11194,7 @@
 	)
 	(label "RX1"
 		(at 617.22 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10916,6 +11205,7 @@
 	)
 	(label "LSU_PUMP_I"
 		(at 421.64 123.825 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10926,6 +11216,7 @@
 	)
 	(label "IN_CAM1"
 		(at 554.99 245.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10936,6 +11227,7 @@
 	)
 	(label "IN_CRANK-"
 		(at 642.112 246.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10946,6 +11238,7 @@
 	)
 	(label "OUT_INJ2"
 		(at 520.7 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10956,6 +11249,7 @@
 	)
 	(label "TACH"
 		(at 675.64 288.925 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10966,6 +11260,7 @@
 	)
 	(label "OUT_FUEL_PUMP_RELAY"
 		(at 732.79 284.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10976,6 +11271,7 @@
 	)
 	(label "OUT_TACH"
 		(at 736.6 294.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10986,6 +11282,7 @@
 	)
 	(label "USBM"
 		(at 582.93 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10996,6 +11293,7 @@
 	)
 	(label "USBM"
 		(at 650.24 201.295 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11006,6 +11304,7 @@
 	)
 	(label "IN_TPS2"
 		(at 554.99 306.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11016,6 +11315,7 @@
 	)
 	(label "LSU_HEAT-"
 		(at 547.37 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11026,6 +11326,7 @@
 	)
 	(label "IN_MAF"
 		(at 554.99 295.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11036,6 +11337,7 @@
 	)
 	(label "IN_KNOCK1"
 		(at 452.12 250.825 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11046,6 +11348,7 @@
 	)
 	(label "OUT_WASTEGATE"
 		(at 736.6 289.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11056,6 +11359,7 @@
 	)
 	(label "SPI3_MISO"
 		(at 617.22 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11066,6 +11370,7 @@
 	)
 	(label "VIGN"
 		(at 447.675 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11076,6 +11381,7 @@
 	)
 	(label "SPI3_CS"
 		(at 617.22 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11086,6 +11392,7 @@
 	)
 	(label "VVT2_B1"
 		(at 554.99 189.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11096,6 +11403,7 @@
 	)
 	(label "OUT_BUZER"
 		(at 736.6 299.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11106,6 +11414,7 @@
 	)
 	(label "VVT2_B2"
 		(at 554.99 186.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11116,6 +11425,7 @@
 	)
 	(label "LSU_SENSOR_U{slash}PUMP_I"
 		(at 554.99 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11126,6 +11436,7 @@
 	)
 	(label "OUT_INJ1"
 		(at 526.415 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11136,6 +11447,7 @@
 	)
 	(label "INJ6"
 		(at 554.99 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11146,6 +11458,7 @@
 	)
 	(label "IN_TPS1"
 		(at 560.07 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11156,6 +11469,7 @@
 	)
 	(label "TACH"
 		(at 554.99 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11166,6 +11480,7 @@
 	)
 	(label "OUT_INJ2"
 		(at 526.415 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11176,6 +11491,7 @@
 	)
 	(label "LSU_PUMP_I"
 		(at 535.94 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11186,6 +11502,7 @@
 	)
 	(label "TX1"
 		(at 617.22 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11196,6 +11513,7 @@
 	)
 	(label "SPI3_MOSI"
 		(at 617.22 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11206,6 +11524,7 @@
 	)
 	(label "CAN-"
 		(at 617.22 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11216,6 +11535,7 @@
 	)
 	(label "OUT_IGN1"
 		(at 488.95 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11226,6 +11546,7 @@
 	)
 	(label "USBP"
 		(at 650.24 203.835 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11236,6 +11557,7 @@
 	)
 	(label "IN_KNOCK1_RAW"
 		(at 403.225 250.825 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11246,6 +11568,7 @@
 	)
 	(label "USBP"
 		(at 596.9 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11256,6 +11579,7 @@
 	)
 	(label "OUT_INJ6"
 		(at 527.05 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11266,6 +11590,7 @@
 	)
 	(label "MAIN_RELAY"
 		(at 554.99 209.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11276,6 +11601,7 @@
 	)
 	(label "LSU_HEAT-"
 		(at 421.64 118.745 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11286,6 +11612,7 @@
 	)
 	(label "THRESHOLD_VR"
 		(at 692.785 251.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11296,6 +11623,7 @@
 	)
 	(label "LSU_SENSOR_U"
 		(at 421.64 128.905 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11306,6 +11634,7 @@
 	)
 	(label "OUT_FUEL_PUMP_RELAY"
 		(at 662.94 292.735 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11316,6 +11645,7 @@
 	)
 	(label "VR_ANALOG"
 		(at 694.563 246.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11326,6 +11656,7 @@
 	)
 	(label "IGN3"
 		(at 554.99 133.35 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11336,6 +11667,7 @@
 	)
 	(label "OUT_FUEL_PUMP_RELAY"
 		(at 619.76 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11346,6 +11678,7 @@
 	)
 	(label "VR_ANALOG"
 		(at 554.99 318.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11356,6 +11689,7 @@
 	)
 	(label "OUT_INJ4"
 		(at 526.415 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11366,6 +11700,7 @@
 	)
 	(label "OUT_INJ4"
 		(at 523.24 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11376,6 +11711,7 @@
 	)
 	(label "IN_CLT"
 		(at 552.45 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11386,6 +11722,7 @@
 	)
 	(label "+ETB"
 		(at 554.99 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11396,6 +11733,7 @@
 	)
 	(label "OUT_IGN3"
 		(at 491.49 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11406,6 +11744,7 @@
 	)
 	(label "FUEL_PUMP_RELAY"
 		(at 675.64 292.735 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11416,6 +11755,7 @@
 	)
 	(label "IGN5"
 		(at 554.99 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11426,6 +11766,7 @@
 	)
 	(label "WASTEGATE"
 		(at 554.99 207.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11436,6 +11777,7 @@
 	)
 	(label "CAN_L"
 		(at 683.26 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11446,6 +11788,7 @@
 	)
 	(label "OUT_BUZER"
 		(at 662.94 285.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11456,6 +11799,7 @@
 	)
 	(label "+12V"
 		(at 530.86 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11466,6 +11810,7 @@
 	)
 	(label "IN_KNOCK1_RAW"
 		(at 577.85 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11476,6 +11821,7 @@
 	)
 	(label "VREF2"
 		(at 423.545 233.045 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11486,6 +11832,7 @@
 	)
 	(label "IN_D1"
 		(at 554.99 334.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11496,6 +11843,7 @@
 	)
 	(label "OUT1"
 		(at 554.99 214.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11506,6 +11854,7 @@
 	)
 	(label "IN_CRANK"
 		(at 554.99 242.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11516,6 +11865,7 @@
 	)
 	(label "IGN4"
 		(at 554.99 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11526,6 +11876,7 @@
 	)
 	(label "OUT_INJ5"
 		(at 526.415 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11536,6 +11887,7 @@
 	)
 	(label "OUT_INJ1"
 		(at 510.54 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11546,6 +11898,7 @@
 	)
 	(label "FUEL_CONSUM"
 		(at 554.99 194.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11556,6 +11909,7 @@
 	)
 	(label "VVT1_1"
 		(at 554.99 227.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11566,6 +11920,7 @@
 	)
 	(label "IN_CRANK+"
 		(at 557.53 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11576,6 +11931,7 @@
 	)
 	(label "CAN+"
 		(at 490.22 118.745 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11586,6 +11942,7 @@
 	)
 	(label "IN_PPS1"
 		(at 562.61 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11596,6 +11953,7 @@
 	)
 	(label "IN_RES2"
 		(at 554.99 288.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11606,6 +11964,7 @@
 	)
 	(label "LSU_SENSOR_U"
 		(at 533.4 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11616,6 +11975,7 @@
 	)
 	(label "VBUS"
 		(at 617.22 209.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11626,6 +11986,7 @@
 	)
 	(label "EGT-"
 		(at 656.59 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11636,6 +11997,7 @@
 	)
 	(label "IN_VSS"
 		(at 554.99 247.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11646,6 +12008,7 @@
 	)
 	(label "+5VP"
 		(at 568.96 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11656,6 +12019,7 @@
 	)
 	(label "OUT_INJ5"
 		(at 515.62 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11666,6 +12030,7 @@
 	)
 	(label "LSU_CALIBR_RES"
 		(at 421.64 121.285 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11676,6 +12041,7 @@
 	)
 	(label "+12V"
 		(at 399.415 292.735 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11686,6 +12052,7 @@
 	)
 	(label "+5VP"
 		(at 444.5 187.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11696,6 +12063,7 @@
 	)
 	(label "VVT1_2"
 		(at 554.99 219.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11706,6 +12074,7 @@
 	)
 	(label "FUEL_PUMP_RELAY"
 		(at 554.99 204.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11716,6 +12085,7 @@
 	)
 	(label "IN_A3"
 		(at 554.99 311.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11726,6 +12096,7 @@
 	)
 	(label "CAN-"
 		(at 490.22 116.205 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11736,6 +12107,7 @@
 	)
 	(label "IN_MAP2"
 		(at 538.48 53.975 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11746,6 +12118,7 @@
 	)
 	(label "IGN6"
 		(at 554.99 140.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11756,6 +12129,7 @@
 	)
 	(label "IN_CRANK+"
 		(at 642.1767 241.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11766,6 +12140,7 @@
 	)
 	(label "OUT_TACH"
 		(at 662.94 288.925 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11776,6 +12151,7 @@
 	)
 	(label "-ETB"
 		(at 554.99 184.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11786,6 +12162,7 @@
 	)
 	(label "IN_PPS2"
 		(at 554.99 308.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11796,6 +12173,7 @@
 	)
 	(label "GNDA"
 		(at 589.28 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11806,6 +12184,7 @@
 	)
 	(label "CAN_L"
 		(at 580.39 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11816,6 +12195,7 @@
 	)
 	(label "OUT3"
 		(at 554.99 196.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11826,6 +12206,7 @@
 	)
 	(label "EGT-"
 		(at 604.52 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11836,6 +12217,7 @@
 	)
 	(label "INJ1"
 		(at 554.99 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11846,6 +12228,7 @@
 	)
 	(label "OUT_IGN5"
 		(at 527.05 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11856,6 +12239,7 @@
 	)
 	(label "GNDA"
 		(at 614.68 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11866,6 +12250,7 @@
 	)
 	(label "WASTEGATE"
 		(at 675.64 283.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11876,6 +12261,7 @@
 	)
 	(label "GNDA"
 		(at 599.44 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11886,6 +12272,7 @@
 	)
 	(label "VBUS"
 		(at 650.24 208.915 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11896,6 +12283,7 @@
 	)
 	(label "SPI3_SCK"
 		(at 617.22 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11906,6 +12294,7 @@
 	)
 	(label "VBAT"
 		(at 554.99 364.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11916,6 +12305,7 @@
 	)
 	(label "IN_PPS1"
 		(at 554.99 257.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11926,6 +12316,7 @@
 	)
 	(label "OUT_BUZER"
 		(at 586.74 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11936,6 +12327,7 @@
 	)
 	(label "INJ5"
 		(at 554.99 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11946,6 +12338,7 @@
 	)
 	(label "IN_VIGN"
 		(at 389.255 182.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11956,6 +12349,7 @@
 	)
 	(label "IN_RES1"
 		(at 554.99 285.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11966,6 +12360,7 @@
 	)
 	(label "GNDA"
 		(at 601.98 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11976,6 +12371,7 @@
 	)
 	(label "INJ3"
 		(at 554.99 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11986,6 +12382,7 @@
 	)
 	(label "OUT_IGN3"
 		(at 527.05 133.35 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11996,6 +12393,7 @@
 	)
 	(label "LSU_SENSOR_U{slash}PUMP_I"
 		(at 421.64 126.365 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12006,6 +12404,7 @@
 	)
 	(label "RX2"
 		(at 617.22 191.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12016,6 +12415,7 @@
 	)
 	(label "OUT2"
 		(at 554.99 217.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12026,6 +12426,7 @@
 	)
 	(label "OUT_IGN6"
 		(at 505.46 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12036,6 +12437,7 @@
 	)
 	(label "CHECK_ENGINE"
 		(at 554.99 222.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12046,6 +12448,7 @@
 	)
 	(label "LSU_CALIBR_RES"
 		(at 544.83 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12056,6 +12459,7 @@
 	)
 	(label "USBM"
 		(at 617.22 204.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12066,6 +12470,7 @@
 	)
 	(label "OUT_WASTEGATE"
 		(at 662.94 283.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12076,6 +12481,7 @@
 	)
 	(label "OUT_IGN1"
 		(at 527.05 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12086,6 +12492,7 @@
 	)
 	(label "IN_A1"
 		(at 554.99 280.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12096,6 +12503,7 @@
 	)
 	(label "VIGN"
 		(at 554.99 361.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12106,6 +12514,7 @@
 	)
 	(label "THRESHOLD_VR"
 		(at 554.99 191.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12116,6 +12525,7 @@
 	)
 	(label "OUT_IGN2"
 		(at 499.11 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12126,6 +12536,7 @@
 	)
 	(label "GNDA"
 		(at 591.82 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12136,6 +12547,7 @@
 	)
 	(label "GNDA"
 		(at 621.03 293.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12146,6 +12558,7 @@
 	)
 	(label "ETB_EN"
 		(at 554.99 232.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12156,6 +12569,7 @@
 	)
 	(label "OUT_INJ3"
 		(at 526.415 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12166,6 +12580,7 @@
 	)
 	(label "OUT_IGN2"
 		(at 527.05 130.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12176,6 +12591,7 @@
 	)
 	(label "IGN1"
 		(at 554.99 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12186,6 +12602,7 @@
 	)
 	(label "IN_A2"
 		(at 554.99 300.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12196,6 +12613,7 @@
 	)
 	(label "IN_CLT"
 		(at 554.99 270.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12206,6 +12624,7 @@
 	)
 	(label "OUT_TACH"
 		(at 575.31 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12216,6 +12635,7 @@
 	)
 	(label "OUT_INJ3"
 		(at 513.08 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12226,6 +12646,7 @@
 	)
 	(label "USBP"
 		(at 617.22 201.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12236,6 +12657,7 @@
 	)
 	(label "IN_D2"
 		(at 554.99 336.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12246,6 +12668,7 @@
 	)
 	(label "CAN_H"
 		(at 684.53 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12256,6 +12679,7 @@
 	)
 	(label "IN_TPS1"
 		(at 554.99 252.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12266,6 +12690,7 @@
 	)
 	(label "OUT_IGN4"
 		(at 502.92 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12276,6 +12701,7 @@
 	)
 	(label "+12V"
 		(at 382.27 194.31 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12286,6 +12712,7 @@
 	)
 	(label "OUT_WASTEGATE"
 		(at 607.06 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12296,6 +12723,7 @@
 	)
 	(label "OUT_IGN4"
 		(at 527.05 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12306,6 +12734,7 @@
 	)
 	(label "OUT_INJ6"
 		(at 526.415 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12316,6 +12745,7 @@
 	)
 	(label "IN_CAM1"
 		(at 541.02 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12326,6 +12756,7 @@
 	)
 	(label "+12V"
 		(at 711.835 282.575 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12336,6 +12767,7 @@
 	)
 	(label "IN_IAT"
 		(at 549.91 53.975 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12346,6 +12778,7 @@
 	)
 	(label "+12V"
 		(at 518.16 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12977,6 +13410,89 @@
 			(project "greenecu48"
 				(path "/cca5791d-1ca9-478c-b352-f5c3d70b0e91"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vr-max9924:Module-vr-max9924-0.1")
+		(at 652.145 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26522289-71bd-4d9d-84fe-00878590b52f")
+		(property "Reference" "M8"
+			(at 668.655 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Module-vr-max9924-0.1"
+			(at 668.655 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "vr-max9924-0.1:vr-max9924"
+			(at 677.545 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 652.145 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 652.145 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "E2"
+			(uuid "28d52c9d-539b-4d56-9e77-809e333f4f3b")
+		)
+		(pin "E1"
+			(uuid "125c99af-d38c-4d3c-b0a7-338973982dad")
+		)
+		(pin "E4"
+			(uuid "fa074fc2-7c90-436c-bb0a-fbb919c94e64")
+		)
+		(pin "G"
+			(uuid "d0c3bf33-fde0-4232-abc9-1dcb27ab3305")
+		)
+		(pin "W2"
+			(uuid "9b9217bf-c919-4099-94ab-3753a1778095")
+		)
+		(pin "W1"
+			(uuid "5250b4cb-0b0f-4a5d-9d57-f1ea39914657")
+		)
+		(pin "E3"
+			(uuid "239cdbf0-2cde-43ff-a8ab-6dcca8461a4a")
+		)
+		(instances
+			(project "greenecu48"
+				(path "/cca5791d-1ca9-478c-b352-f5c3d70b0e91"
+					(reference "M8")
 					(unit 1)
 				)
 			)
@@ -14099,7 +14615,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 437.515 185.42 0)
+		(at 452.12 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14107,7 +14623,7 @@
 		(dnp no)
 		(uuid "5ea15c46-4330-48df-a1d1-0f56c352ab1c")
 		(property "Reference" "#PWR021"
-			(at 437.515 189.23 0)
+			(at 452.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14632,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 437.515 181.61 0)
+			(at 452.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14124,7 +14640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 437.515 185.42 0)
+			(at 452.12 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +14649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 437.515 185.42 0)
+			(at 452.12 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 437.515 185.42 0)
+			(at 452.12 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14680,7 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:+12V_PROT")
-		(at 389.255 190.5 0)
+		(at 386.08 190.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14173,7 +14689,7 @@
 		(dnp no)
 		(uuid "5f14bdaf-f0f3-4c46-b500-6020e8dbd119")
 		(property "Reference" "#PWR017"
-			(at 389.255 194.31 0)
+			(at 386.08 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14698,7 @@
 			)
 		)
 		(property "Value" "+12V_PROT"
-			(at 395.2367 186.0549 0)
+			(at 392.0617 186.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +14707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 389.255 190.5 0)
+			(at 386.08 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +14716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 389.255 190.5 0)
+			(at 386.08 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 389.255 190.5 0)
+			(at 386.08 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16679,7 @@
 	)
 	(symbol
 		(lib_id "vr-discrete-0.4:Module-vr-discrete-0.4")
-		(at 652.145 238.76 0)
+		(at 694.69 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16172,7 +16688,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4af7707-371c-4d82-bcd2-6e5e2cb4bdff")
 		(property "Reference" "M2"
-			(at 668.655 233.68 0)
+			(at 711.2 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16180,7 +16696,7 @@
 			)
 		)
 		(property "Value" "Module-vr-discrete-0.4"
-			(at 668.655 236.22 0)
+			(at 711.2 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16704,7 @@
 			)
 		)
 		(property "Footprint" "vr-discrete-0.4:vr-discrete"
-			(at 677.545 237.49 0)
+			(at 720.09 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 652.145 238.76 0)
+			(at 694.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +16722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 652.145 238.76 0)
+			(at 694.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
