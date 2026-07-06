@@ -71,5 +71,5 @@
 "22","R914","hellen-one-common:R0603","C23345"
 "22","R915","hellen-one-common:R0603","C23345"
 "22","R916","hellen-one-common:R0603","C23345"
-"molex_48pin_MRE","U1","conector-mre48:Molex_48_MRE",""
+"molex_48pin_MRE","U1","conector-mre48:Molex_48_MRE","C164171"
 "MAX31855KASA","U2","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C52028"

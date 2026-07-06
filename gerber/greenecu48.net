@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/greenecu48.kicad_sch</source>
-    <date>2026-07-06T16:50:23+0000</date>
+    <date>2026-07-06T18:07:45+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -516,7 +516,7 @@
         <field name="VEND">DIGI</field>
         <field name="VEND#">WM4430-ND</field>
         <field name="Designator"/>
-        <field name="LCSC"/>
+        <field name="LCSC">C164171</field>
         <field name="Footprint">conector-mre48:Molex_48_MRE</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -527,7 +527,7 @@
       <property name="VEND" value="DIGI"/>
       <property name="VEND#" value="WM4430-ND"/>
       <property name="Designator" value=""/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C164171"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="greenecu48.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
