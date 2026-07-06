@@ -17,7 +17,7 @@ Comment,Designator,Footprint,LCSC Part #
 "750","R16","R0603","C23241"
 "0","R17","R0603","C21189"
 "10k","R401, R402, R403, R404, R405, R406","R0603","C17414"
-"molex_48pin_MRE","U1","Molex_48_MRE",""
+"molex_48pin_MRE","U1","Molex_48_MRE","C164171"
 "MAX31855KASA","U2","SO8","C52028"
 "47u","C410, C412","C1206","C96123"
 "100n","C411, C413, C420, C470","C0402","C307331"
