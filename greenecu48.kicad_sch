@@ -17203,7 +17203,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C164171"
 			(at 565.15 67.945 0)
 			(effects
 				(font
