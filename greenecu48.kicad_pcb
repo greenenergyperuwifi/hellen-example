@@ -23497,7 +23497,8 @@
 		(effects
 			(font
 				(size 5 10)
-				(thickness 0.625)
+				(thickness 1)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
